@@ -1,3 +1,5 @@
+package com.problems.leetcode;
+
 /*
 1828. Queries on Number of Points Inside a Circle
 https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
@@ -14,7 +16,6 @@ Return an array answer, where answer[j] is the answer to the jth query.
  */
 
 class Solution1828 {
-	class Solution {
 		public int[] countPoints(int[][] points, int[][] queries) {
 			int[] queriCount = new int[queries.length];
 			for (int i = 0; i < queries.length; i++) {
@@ -33,5 +34,4 @@ class Solution1828 {
 		public boolean checkpont(int x, int x1, int y, int y1, int r) {
 			return ((((x - x1) * (x - x1)) + ((y - y1) * ((y - y1)))) <= (r * r));
 		}
-	}
 }
