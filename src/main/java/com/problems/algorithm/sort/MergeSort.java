@@ -1,4 +1,4 @@
-package com.problems.algorithm;
+package com.problems.algorithm.sort;
 
 /*
 Merge Sort
