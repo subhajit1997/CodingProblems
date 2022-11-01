@@ -5,32 +5,35 @@ package com.problems.course.udmey.java_dsa_masterclass.section4;
 /**
  * @author biswass7
  *
- *isPalindrome
-Write a recursive function called isPalindrome which returns true if the string passed to it is a palindrome (reads the same forward and backward). Otherwise it returns false.
+ *someRecursive
+Write a recursive function called someRecursive which accepts an array and a callback. The function returns true if a single value in the array returns true when passed to the callback. Otherwise it returns false.
 
 Examples
 
-isPalindrome('awesome') # false
-isPalindrome('foobar') # false
-isPalindrome('tacocat') # true
-isPalindrome('amanaplanacanalpanama') # true
-isPalindrome('amanaplanacanalpandemonium') # false
+someRecursive({1,2,3,4}, isOdd) # true
+someRecursive({4,6,8,9}, isOdd) # true
+someRecursive({4,6,8}, isOdd) # false
 
  */
 public class Exercise8 {
 	public static void main(String[] args) {
-		System.out.println(isPalindrome("amanaplanacanalpanama"));
+		OddFunction odd = new OddFunction();
+		System.out.println(someRecursive(new int[] {1,2,3,4},odd));
 	}
 
-	private static boolean isPalindrome(String str) {
-		
-		if(str.isEmpty()|| str=="null")
-			return true;
-		if(str.length()==0 || str.length()==1)
-			return true;
-		if(str.charAt(0)==str.charAt(str.length()-1)) {
-			return isPalindrome(str.substring(1, str.length()-1));
-		}
-		return false;
+	private static boolean someRecursive(int[] arr, OddFunction odd) {
+		// TODO Auto-generated method stub
+		return true;
 	}
+
+	
 }
+class OddFunction {
+    boolean run(int num) {
+        if (num % 2 == 0) { 
+            return false; }
+       else {
+           return true;
+       }
+    }
+  }
