@@ -1,4 +1,4 @@
-package com.problems.course.udmey.java_dsa_masterclass;
+package com.problems.course.udmey.java_dsa_masterclass.section3;
 /**
  * @author biswass7
  * @) calculate GCD(greatest common division )of two numbers using recursion
