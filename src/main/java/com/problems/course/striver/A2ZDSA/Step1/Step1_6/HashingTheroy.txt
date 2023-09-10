@@ -1,0 +1,88 @@
+https://youtu.be/KEs5UyBJ39g
+
+HASHING
+
+1)
+[1,2,1,3,2]  -  1 appears 1 times
+                3 appears 1 times
+                4 appears 0 times
+                2 appears 2 times
+                10 appears 0 times
+
+                We generally perform linear iterate and count
+                fun(numb,a[])
+                {
+                    cout=0;
+                    for(int i=0;i<=n;i++ {
+                        if(arr[i]==number)
+                        {
+                            count=count+1;
+                        }
+                    }
+                }
+                time complexity for finding 1 number= O(N)
+                time complexity for Q number of elements = O(Q*N)
+
+ Hashing - > Pre store and fetching
+
+ 2)  Consider a array can have 12 unique elements in above array
+ arr = [1,2,1,3,2]
+
+ Hash array = [0,0,0,0,0,0,0,0,0,0,0]
+  Hash array = [0,1,1,1,0,0,0,0,0,0,0]
+  Hash array = [0,2,2,1,0,0,0,0,0,0,0]
+
+  using above we know   1 appears 2 times
+                         2 appears 2 times
+                         3 appears 1 times
+
+                        int n;
+                        input ->n
+                        int arr[n] = new int[n];
+                        input -> arr
+                        //precompute
+                        int[] hash = new int[13] ;
+                        for(int i=0;i>n;i++){
+                            hash[arr[i]] +=1;
+                        }
+  Limitation above code only arr[Integer.MAX_INT] array size
+
+3)Character Hashing
+
+    s = "abcdabejc"
+            a appears 2 times
+            c appears 2 times
+            z appears 0 times
+    consider a to z of 26 array size
+    [,,,,,,.....,]
+    a,b,c,d,e,.....,z
+    0,1,2,3,4,......,25
+
+    ASCII of a = 97
+    ASCII of z =122
+    for mapping to array we do f(102) - a(97) = 5
+
+    String s;
+    input->s
+    int[] hash = new int[26];
+    input ->hash with 0
+    char[] ch=s.toCharArray();
+    for(int i=0;i<s.length();i++){
+        hash[ch[i]-'a'] ++;
+    }
+4) Limitation of size of Max Int
+    Using Collection of HashMap
+    link-https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/
+    Internally HashMap contains an array of Node and a node is represented as a class that contains 4 fields:
+        int hash
+        K key
+        V value
+        Node next
+
+    The performance of HashMap depends on 2 parameters which are named as follows:
+        Initial Capacity-capacity of HashMap at the time of its creation
+        Load Factor-In java, it is 0.75f by default, meaning the rehashing takes place after filling 75% of the capacity.
+
+5)Collisions in hasMap
+    https://www.baeldung.com/java-hashmap-advanced#:~:text=6.,bucket%20location%20or%20array%20index.
+
