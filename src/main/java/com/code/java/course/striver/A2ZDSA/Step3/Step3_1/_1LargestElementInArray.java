@@ -4,7 +4,7 @@ package com.code.java.course.striver.A2ZDSA.Step3.Step3_1;
  * practice: https://www.codingninjas.com/studio/problems/largest-element-in-the-array-largest-element-in-the-array_5026279?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=1
  *
  */
-public class LargestElementInArray {
+public class _1LargestElementInArray {
     public static void main(String[] args) {
         System.out.println(largestElement(new int[]{1,2,4,8,34,4},6));
     }

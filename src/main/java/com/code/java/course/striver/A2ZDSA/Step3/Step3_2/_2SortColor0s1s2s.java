@@ -20,7 +20,7 @@ import java.util.Arrays;
  * Input: nums = [2,0,1]
  * Output: [0,1,2]
  */
-public class SortColor0s1s2s {
+public class _2SortColor0s1s2s {
     public static void main(String[] args) {
         int[] val = new int[]{2,0,2,1,1,0};
         sortColors(val);

@@ -17,7 +17,7 @@ public class LongestSubArray {
         System.out.println(getLongestSubarrayHasing(new int[]{1,2,3 ,1, 1 ,1, 1},3));
     }
 
-    // Time complexity : O(N^2) Brute Force
+    // Time complexity : O(N^3) Brute Force
     public static int longestSubarrayWithSumK(int []a, long k) {
         int n = a.length; // size of the array.
 

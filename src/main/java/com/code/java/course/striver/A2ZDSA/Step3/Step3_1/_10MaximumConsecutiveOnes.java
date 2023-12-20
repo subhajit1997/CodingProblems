@@ -3,7 +3,7 @@ package com.code.java.course.striver.A2ZDSA.Step3.Step3_1;
 /**
  * practice: https://leetcode.com/problems/max-consecutive-ones/submissions/
  */
-public class MaximumConsecutiveOnes {
+public class _10MaximumConsecutiveOnes {
     public static void main(String[] args) {
         System.out.println(findMaxConsecutiveOnes(new int[]{1,1,0,1,1,1}));
     }
