@@ -1,0 +1,61 @@
+BFS:
+-----
+Breadth First Search Technique
+Breadth -> level wise
+
+starting node=1
+             [1]    ----------[0]
+           /     \
+        [2]        [6]  -------[1]
+      /     \     /     \
+    [3]     [4] [7]     [8] ----[2]
+             \   /
+               [5]  -------------[3]
+
+BFS= 1 2 6 3 4 7 8 5
+
+starting node=6
+
+                     [1]    ----------(1)
+                   /      \
+    (2)-------  [2]         [6]  -------(0)
+              /     \     /     \
+  (3)-----  [3]  (3)-[4] [7]-(1)  [8] ----(1)
+                     \   /
+                       [5]  -------------(2)
+
+BFS=6 1 7 8 2 5 3 4
+
+Initial:
+    Start with Queue data structure , fIFO
+    starting node in Queue start with
+    create visited array with size N=9
+
+
+code:
+
+    class Solution{
+        public ArrayList<Integer> bfsOfGraph(int v,ArrayList<ArrayList<Integer>> adj){
+            ArrayList<Integer> bfs = new ArrayList<>();
+            boolean vis[] = new boolean[v];
+            Queue<Integer> q = new LinkedList<>();
+
+            q.add(0);
+            vis[0]=true;
+
+            while(!q.isEmpty()){
+                Integer node = q.poll();
+                bfs.add(node);
+
+                for(Integer it:adj.get(node)){
+                    if(vis[it]==false){
+                        vis[it]=true;
+                        q.add(it);
+                    }
+                }
+            }
+            return bfs;
+        }
+    }
+    space : O(3N) ~ O(N)
+    Time: O(N) + O(2*Edges)

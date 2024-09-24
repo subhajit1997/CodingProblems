@@ -1,0 +1,24 @@
+learn: https://takeuforward.org/data-structure/search-in-a-binary-search-tree-2/
+
+             [8]
+          /      \
+       [5]        [12]
+     /    \        /  \
+  [4]     [7]    [10]   [14]
+        /               /
+     [6]            [13]
+
+Search in BST:
+--------------
+L<N<R
+Time complexity: O(logN) which is the height of the tree as we do not traverse the whole tree only one path
+
+
+class Solution{
+    public TreeNode searchBST(TreeNode root,int val){
+        while(root!=null && root.val!=val){
+            root = val<root.val ? root.left:root.right;
+        }
+        return root;
+    }
+}

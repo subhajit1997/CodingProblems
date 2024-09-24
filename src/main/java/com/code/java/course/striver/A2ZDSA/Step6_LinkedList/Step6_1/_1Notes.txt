@@ -1,0 +1,153 @@
+-----------------
+LINKED LIST
+-----------------
+Topics:
+    1) What is Linked List?
+    2)Where is it used?
+    3)Classes in java
+    4)Memory Space used
+    5)Difference between Node & Node*
+    6)Array -> LL
+    7) Traversal in LL
+    8)Length of a LL
+    9) Search an element in LL
+
+------------------------
+1) What is Linked List?
+
+    int array[4] = [1,3,2,5]
+    [1->56456,3->56457,2->56458,5->56459] Array is stored in contiguous location
+    Array size cannot be increased or decreased as fixed location in memory
+
+    LinkedList: Not in contiguous memory location
+    [1]-> 535443 [3] ->3453666 [2]->66345 can be anywhere
+    Size can be increased at any moment
+    We can find the next element location using "next".
+    Start of LL is -> Head  , last is ->null
+
+
+
+
+2)Where is it used?
+
+    It is used in stack , Queue as LL is flexible
+    It is one Directional
+    It is used in a browser ->
+        Search-> takeyoufoward.org -> a2z -> article
+
+3)Classes in java
+
+   In C++ it uses pointers to get next memory location for LL but for java
+   there is no pointers.
+
+   class Node{
+        int data;
+        Node next;
+        Node(int data1,int next1){
+            this.data=data1;
+            this.next=next1;
+        }
+        Node(int data1){
+            this.data=data1;
+            this.next=null;
+        }
+   };
+   public class LinkedList{
+        public static void main(String[] args){
+            Node y= new Node(arr[3]);
+            syso(y.data);
+        }
+   }
+
+4)Memory Space used
+
+    Depends on what is the memory bit
+    32 bit-> int(4 bytes) , *(4 bytes) -> 8 bytes
+    64 bit-> int(4 bytes) , *(8 bytes) -> 122 bytes
+
+5)Difference between Node & Node* (pointer for c++)
+
+    Node x = Node(2,null)
+    Node* y = &x;
+
+    or
+
+    Node* y =new Node(2,null)
+
+6)How to convert Array -> LL
+
+    arr[] = [2,     1 , 3 , 8 ]
+             (head)
+
+    class Node{
+            int data;
+            Node next;
+            Node(int data1,int next1){
+                this.data=data1;
+                this.next=next1;
+            }
+            Node(int data1){
+                this.data=data1;
+                this.next=null;
+            }
+       };
+       public class LinkedList{
+
+            //O(N)
+            private static Node convertArray2LL(int[] arr){
+                Node head = new Node(arr[0]);
+                Node mover = head;
+                for(int i=1;i<arr.length;i++){
+                    Node temp = new Node(arr[i]);
+                    mover.next = temp;
+                    mover = temp;
+                }
+                return head;
+            }
+
+            public static void main(String[] args){
+                int[] arr={1,4,6,7};
+                Node head = convertArray2LL(arr);
+                System.out.print(head.data);
+            }
+       }
+
+7) Traversal in LL
+
+    [2] -> [3] -> [1] -> [8]
+    head                    null
+
+    public static void main(String[] args){
+        int[] arr={1,4,6,7};
+        Node head = convertArray2LL(arr);
+        Node temp = head;
+        while(temp!=null){
+            System.out.print(head.data+" ");
+            temp = temp.next;
+        }
+    }
+
+8)Length of a LL
+
+    private static int lengthOfLL(Node head){
+        int cnt=0;
+        Node temp = head;
+        while(temp != null){
+              temp = temp.next;
+              cnt++;
+        }
+        return cnt;
+    }
+
+9) Search an element in LL
+
+    //O(N)
+    private static int checkIfPresent(Node head,int val){
+        Node temp = head;
+        while(temp != null){
+            if(temp.data==val)
+                return 1;
+            temp = temp.next;
+        }
+        return 0;
+    }

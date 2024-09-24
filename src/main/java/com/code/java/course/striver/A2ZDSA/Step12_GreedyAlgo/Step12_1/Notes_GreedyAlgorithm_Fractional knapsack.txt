@@ -1,0 +1,62 @@
+Greedy Algorithms in Java | Alpha batch lec 23
+Videos:  https://www.youtube.com/watch?v=3Scx6gRRMY4&t=1446s
+
+
+
+Fractional Knapsack
+---------------------
+Q) Fractional Knapsack
+   Given the weights and values of N items, put these items in a knapsack of capacity W to get the maximum
+   total value in the knapsack.
+   value = [60, 100, 120]
+   weight = [10, 20, 30]
+   W = 50
+
+
+   ans = 240
+
+Approach:
+
+    -   weight less but value more
+    -    get the ratio value/weight = [6,5,4]
+
+    sudo code:
+        for(int i=n-1;i>=0;i--){
+            if(capacity >= weight[i]{
+                total include ie, capacity -wt[i] & value +val[i]
+            }else{
+                value = val+ (ratio*capacity)
+                break;
+            }
+        }
+    code:
+        public class Classroom{
+            public static void main(String args[]){
+                int val[] = {60,100,120};
+                int weight[] = {10,20,30};
+                int w = 50;
+                double ratio[][] = new double[val.length][2];
+                // 0th col => index;
+                //1t col => ratio;
+
+                for(int i=0;i<val.length;i++){
+                    ratio[i][0] = i;
+                    ratio[i][1] = val[i]/(double)weight[i];
+                }
+                //ascending order
+                Arrays.sort(ratio,Comparator.comparingDouble(o -> o[1]));
+                int capacity = w;
+                int finalVal = 0;
+                for(int i=ratio.length-1;i>=0;i--){
+                    int index = (int)ratio[i][0];
+                    if(capacity>=weight[index]){ //include full item
+                        finalVal += val[index];
+                        capacity -= weight[index];
+                    }else{ //include fractional item
+                        finalVal += (ratio[i][1] * capacity);
+                        capacity =0;
+                        break;
+                }
+            }
+            System.out.print("final val :"+finalVal);
+        }

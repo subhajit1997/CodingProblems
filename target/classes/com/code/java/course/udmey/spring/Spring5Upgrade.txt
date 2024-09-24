@@ -1,0 +1,38 @@
+Spring 5 upgrade
+
+Improvements:
+----------------------
+	• Information: https://www.digitalocean.com/community/tutorials/spring-5
+	• BaseLine Upgrade:
+		○ Spring 5 runs on Java 8, so spring code can leverage lambda expressions to improve code readability.
+		○ Spring 5 also supports java 9, so we can create our applications on module based architecture too.
+	• Core API Enhancements:
+		○ Non-null API declaration at the package level.
+		○ File operations are performed via NIO 2 streams resulting in performance boost.
+		○ Spring Framework 5.0 comes with its own Commons Logging bridge; spring-jcl instead of standard Commons Logging
+		○ improve startup time: Support for providing spring components' information through index file “META-INF/spring.components” rather than classpath scanning.
+	• Modernization  Developer Experience:
+		○ Kotlin Support: support for Kotlin language integration alongside Java
+		○ Functional Programming: Spring embraces functional programming concepts through lambda expressions and method references, leading to more concise and declarative code.
+		○ Enhanced Testing Support: Improved JUnit 5 integration
+
+
+
+Upgrade from spring 4 to spring 5:
+-------------------------------------------
+
+	• Planning and Assessment:
+		○ Start by understanding your application and identify dependencies
+		○ Review the Spring 5 migration guide
+		○ Consider the impact on external dependencies: Ensure compatibility of third-party libraries with Spring 5.
+	• Phased Upgrade Approach:
+		○ Gradual migration: Upgrade dependencies in phases, starting with non-core libraries and gradually moving towards core Spring components.
+		○ Leverage Spring Boot: If your application isn't already Spring Boot-based, consider migrating
+	• Start upgrade:
+		○ Java Version Compatibility
+		○ Update Dependencies:
+		○ Update Deprecated APIs:
+		○ Review and Adapt Configuration:
+		○ Thoroughly test your application after making the updates. Ensure that all functionalities work as expected
+		○ Update your application's documentation to reflect the changes made during the upgrade
+		○ Be aware of potential performance improvements or changes in behavior introduced in Spring 5.

@@ -1,0 +1,256 @@
+Introduction to Heap Data Structure  :
+Link: https://youtube.com/playlist?list=PLzjZaW71kMwTF8ZcUwm9md_3MvtOfwGow&si=e3g6he5-8VYu2G25
+
+------------------------------------------------------------------
+
+why heap :
+    - used in heap sort
+    - implement (priority queue)
+
+Types of Heap:
+    -   Min Heap
+    -   Max heap
+Binary tree:
+    -   It's a complete tree
+    -   Each node is complete filled except last row
+    -   Filled in form of Left then Right
+    -   The last has all kept to left as possible
+
+Note:
+    -   Binary Heap is a complete Binary Tree
+    -   stored as an Array
+    -   structure:
+            left(i) = 2i+1
+            right(i) = 2i+2
+            parent(i)   = |i-1|/2   (   | is mod)
+    - Example:
+                    []0
+                   /   \
+                []1      []2
+               /   \     /   \
+            []3  []4    []5  []6
+          /   \    /
+       []7  []8   []9
+
+        parent(9) = 9-1/2 = 4
+        left(3) = 2*3+1=7
+        right(3)   = 2*3+2 = 8
+
+    -   Min Heap   -> complete Binary tree  <- Max heap
+    -   Min Heap:    Every node has value smaller than its descendant
+    -   Max Heap:   Every node has value greater than its descendant
+
+
+Implement A Binary Heap binary:
+------------------------------------------
+    -   Implement binary heap from Basic
+    -   Design all the functions in Heap
+
+    class MinHeap{
+        int[] arr;
+        int size;
+        int capacity;
+        MinHeap(int c){
+            arr = new int[c];
+            size=0;
+            capacity = c;
+        }
+        int left(int i){
+            return (2*i+1);
+        }
+        int right(int i){
+            return (2*i+2);
+        }
+        int parent(int i){
+            return (i-1)/2;
+        }
+    }
+
+Insert Into Heap:
+---------------------
+    -   Whenever we do some changes in heap make sure:
+        -   it should maintain property of heap(min/max)
+        -   it should be complete binary tree
+    -   Always remember:
+        -   we are storing it as a tree, but we are mainly modifying array
+
+    example:  ->>
+                    [10]0
+                   /   \
+                [20]1    [15]2
+               /   \     /     \
+           [40]3  [50]4 [100]5  [25]6
+          /
+       [45]7
+      size = 8
+    insert(12) ->
+                                [10]0
+                               /   \
+                            [20]1    [15]2
+                           /   \     /     \
+                       [40]3  [50]4 [100]5  [25]6
+                      /   \
+                   [45]7   [12]8 <-
+                  size ++ = 9
+                  arr[size-1] = 12
+
+                              [10]0
+                             /   \
+                          [20]1    [15]2
+                         /   \     /     \
+                  -> [12]3  [50]4 [100]5  [25]6
+                    /   \
+                 [45]7   [40]8
+
+
+                              [10]0
+                             /   \
+                      ->  [12]1    [15]2
+                         /   \     /     \
+                     [20]3  [50]4 [100]5  [25]6
+                    /   \
+                 [45]7   [40]8
+
+       void insert(int x){
+            if(size== capacity) return ;
+            size ++;
+            arr[size -1] = x;
+            for(int i= size-1; i !=0 && arr[parent(i)] > arr[i]){
+                swap(arr[i], arr[parent(i)];
+                i = parent(i);
+            }
+       }
+       Time complexity: O(N)
+
+Heapify in Binary Search MinHeapify or MaxHeapify Algorithm:
+---------------------------------------------------------------
+    -   Heapify: Mainly used as subroutine in many standard operations
+    -   Given min/max heap with one possible violation, fix the min/max binary heap
+
+    example perform min heapify:
+    Input:
+                            [40]0
+                           /   \
+                        [20]1    [30]2
+                       /   \     /     \
+                   [35]3  [25]4 [80]5  [32]6
+                  /    \   /
+            [100]7  [70]8 [60]9
+
+    output:
+                                [20]0
+                               /   \
+                            [25]1    [30]2
+                           /   \     /     \
+                       [35]3  [40]4 [80]5  [32]6
+                      /    \   /
+                [100]7  [70]8 [60]9
+
+    algo:
+        -   compare node with its left and right and choose the minimum
+    code:
+        void minHeapify(int i){
+            int li = left(i);
+            int ri = right(i);
+            int smallest = i;
+            if(li<size && arr[li] < arr[smallest])
+                smallest = li;
+            if(ri> size && arr[ri] < arr[smallest])
+                smallest = ri;
+            if(smallest !=i){
+                swap(arr[i], arr[smallest])
+                minHeapify(smallest);
+            }
+
+        }
+        Time complexity: O(logN)
+
+Get Min heap:
+-------------------
+    -   getMin: It simply returns the minimum element from MinHeap , O(1)
+    -   Extract Min: remove min element from heap and return it
+
+    Extract Min:
+
+    algo:
+        swap(arr[0],arr[size-1])
+        size--
+        minheapify
+    code:
+
+    int extractMin(){
+        if(size==0) return INT_MAX;
+        if(size==1){
+            size--;
+            return arr[0];
+        }
+        swap(arr[0],arr[size-1);
+        size --;
+        MinHeapify(0);
+        return arr[size];
+    }
+
+
+Delete in Binary Heap ->
+---------------------------
+
+Decrease key:
+
+    Input: decrease key i=3, val = 5
+                            [10]0
+                           /   \
+                        [20]1    [40]2
+                       /   \     /
+                   [80]3  [100]4 [70]5
+    Iteration:
+
+                            [10]0
+                           /   \
+                        [20]1    [40]2
+                       /   \     /
+                   [5]3  [100]4 [70]5
+
+                    parent(3) =1
+                    check property:
+                    ------------
+                    -   valid min heap
+                    -   complete binary tree
+                            [10]0
+                           /   \
+                        [5]1    [40]2
+                       /   \     /
+                   [20]3  [100]4 [70]5
+                            [5]0
+                           /   \
+                        [10]1    [40]2
+                       /   \     /
+                   [20]3  [100]4 [70]5        <<<-- min heap
+
+    code:
+        void decreaseKey(nt i,int x){
+            arr[i] = x;
+            while(x!=0 && arr[parent(i)] > arr[i]){
+                swap(arr[i],arr[parent(i)];
+                i = parent(i);
+            }
+        }
+
+Delete key:
+        Input: delete key i=3
+                                [10]0
+                               /   \
+                            [20]1    [30]2
+                           /   \     /    \
+                       [40]3  [50]4 [35]5   [38]6
+                       /
+                    [45]7
+        iteration:
+                                [10]0
+                               /   \
+                            [20]1    [30]2
+                           /   \     /    \
+                       [45]3  [50]4 [35]5   [38]6
+
+        algo:
+             - deleteKey (i)
+             - extractMin()

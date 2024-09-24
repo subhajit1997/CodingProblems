@@ -1,0 +1,31 @@
+DSA questions:
+   1) Unique Element In Sorted Array
+    2)LRU Cache
+    3)Merge Sort
+    4)Reverse linked list
+    5)Given MxN keypad of characters and word. determine if it is possible to type word without lifting finger. Finger can only glide with adjacent keys who share common edges.
+    6)Given a language rules in the form of 26X26 matrix, where matrix[i][j] denotes, (j-‘a’)th character can occur after (i-‘a’)th character.
+      Determine how many unique possible strings of length ‘n’ can be generated?
+    7)Minimum number of jumps to reach end | Set 2 (O(n) solution)
+    8). Given 2 arrays of integers,find whether they will form the same binary search tree.
+    9)Write a code to find all subsets of a given set:-
+    10)Arrays, Hashmap and Linkedlist related popular problems
+    11)How to reverse the string
+    12)Return max of sum of nodes in any level in a BST
+    13)Bottom view of a Binary tree.
+    14)Print cousins of a given node in Binary Tree
+
+Design)
+    Parking Lot (HLD+LLD)
+
+Other)
+    Programming skills
+    Oops concepts
+    Spring
+    Jdbc
+    Singleton class, how to write your own mutable object,Difference bt string and stringbuffer
+    JavaCollections
+    OOPS,Exception
+    Handling
+    Design patterns
+    multithreading

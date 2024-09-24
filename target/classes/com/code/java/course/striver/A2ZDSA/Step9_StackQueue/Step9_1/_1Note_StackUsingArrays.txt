@@ -1,0 +1,33 @@
+Implement Stack using Arrays
+---------------------------
+https://takeuforward.org/data-structure/implement-stack-using-array/
+
+Stack is a Data structure that allows Last in First out LIFO,
+
+eg->
+push(6)
+push(3)
+push(7)
+
+|   6   |
+|   3   |
+|   7   |
+---------
+
+top() -> 7
+pop()
+top() ->3
+pop()
+top()-> null
+
+
+operations for stack using array->
+arr[]  [6,3,7,.....]
+        (top)
+push()  -> top = top+1 ; arr[top] = element;
+pop()   -> top = top-1;
+top()   -> arr[top]
+size()  -> top+1
+empty() -> if(top==-1) return true;
+            else        return false;
+

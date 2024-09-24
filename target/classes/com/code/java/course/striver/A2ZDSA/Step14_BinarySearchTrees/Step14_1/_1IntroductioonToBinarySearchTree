@@ -1,0 +1,32 @@
+Binary Search tree:
+----------------------
+
+learn: https://takeuforward.org/binary-search-tree/introduction-to-binary-search-trees/
+
+PreRequisite : Inorder traversal BT, Preorder , Post order, level order traversal in BT
+
+        []N
+      /     \
+   []L      []R
+   L<N<R
+
+eg:,
+
+            [8]
+          /     \
+        [3]     [10]
+     /      \         \
+  [1]       [6]         [14]
+           /    \       /
+        [4]     [7]     [13]
+
+conditions for BST:
+----------------
+*)Left subtree should be BST
+*)Right subtree should be BST
+*)L<N<R
+*) Ideally no duplicates but if required L<=N<R
+
+why BST:
+---------
+Generally in BST height is O(logN)

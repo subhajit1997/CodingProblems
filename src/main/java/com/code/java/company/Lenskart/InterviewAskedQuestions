@@ -1,0 +1,16 @@
+1) if there is a order and payment service and there is only 1 data present for a shirt but there are 2 persons trying to get the shirt at same time how to make sure it ony gets to 1 person from data base
+    If we change from microsece to monolith how will my implementation change and vice versa?
+2) If there is a order ans payment srvice and there is an exception while updating payment db how to handle that?
+    If we change from microsece to monolith how will my implementation change and vice versa?
+3) can constructor be private
+4) what is @Transaction in spring boot annotation
+5) DSA: longestConsecutiveArray code and optimise
+6) Internal working of Hashmap
+7) Database: mysql
+8) Discussion on what i work on: logging fraework, is it benificial to update to jdk 17,solr implementation
+9) where should the objects be stored and how many:
+    static String a = new String("ram");
+    String b = "ram";
+    String c = new String("ram");
+10) have you worked on mysql?
+11) Design Pattern - what is singletonDesign , etc other topics?

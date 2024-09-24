@@ -1,0 +1,100 @@
+Introduction to Graph -> Types, Conventions Used
+--------------
+vide: https://takeuforward.org/graph/introduction-to-graph/
+
+
+ [1] -- [4]
+ |       |
+ |       |
+ [2] -- [5]
+   \   /
+    \ /
+    [3]
+  un-directed graph
+  where nodes =5
+
+  [] --> []
+   ^      ^
+   |      |
+   |      |
+   [] <--[]
+    \   /
+     \ /
+      V
+      []
+   Directed graph (where all the edges are directed)
+
+In above [] is directed as nodes/vertex
+In above -- represents as undirected edge
+In above --> or <-- represents as directed edge
+In directed graph we can have bi-directed edge
+
+----------------
+
+Cycles:
+--------
+
+below are also graph with open structure:(not cyclic)
+[] --[]
+|
+|
+[] -- []
+
+  [] --> []
+   ^      ^
+   |      |
+   |      |
+   [] <--[]
+    \   /
+     \ /
+      V
+      []
+  Directed Acyclic graph (no cycle)
+
+For cycles we start from a node and end in a node(cyclic):
+
+ [1] -- [4]
+ |       |
+ |       |
+ [2] -- [5]
+ Undirected cyclic graph (cyclic)
+
+  [] --> []
+   ^ <--- ^
+   |      |
+   |      |
+   [] <--[]
+    \   /
+     \ /
+      V
+      []
+   Directed cyclic graph (cyclic)
+
+-----------
+
+Path:
+----
+- can contain a lot of nodes and each of them are reachable
+
+[1]-- [2]
+       |
+       |
+[4]-- [3]
+       /
+      /
+    [5]
+  1-2-3-5 (path)
+  1-2-3-2-1 (not path)
+  1-3-5 (not path)
+
+-----
+Degree: For undirected graph the number of edges attached to it is called degree of a graph
+        Total degree = 2*(num of edge)
+
+        For directed graph we have:
+            InDegree - number of incoming edges
+            OutDegree - number of outgoing edges
+
+-------
+Edge Weight:
+        If no weight mentioned for edge by default 1

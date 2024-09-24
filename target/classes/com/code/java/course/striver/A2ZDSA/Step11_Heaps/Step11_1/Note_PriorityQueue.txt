@@ -1,0 +1,78 @@
+Priority Queue:
+--------------------
+    -   Its a special designed container such that first element of queue is smaller than all elements
+    -   Element are in non-decreasing order
+    -   By default java creates min heap for priority queue
+
+
+
+
+
+code:
+--------
+    -   By default Creates min heap
+
+    import java.util.PriorityQueue;
+
+    public class PriorityQueueImplement {
+
+        public static void main(String[] args) {
+            PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+            pq.add(10);
+            pq.add(15);
+            pq.add(5);
+
+            System.out.println(pq.size());  // Output: 3
+
+            System.out.println(pq.peek());  // Output: 5
+
+            while (!pq.isEmpty()) {
+                System.out.print(pq.poll() + " ");  // Output: 5 10 15
+            }
+        }
+    }
+
+
+    for max heap ->
+    --------------------------
+    import java.util.Comparator;
+    import java.util.PriorityQueue;
+
+    public class MaxHeap {
+
+        public static void main(String[] args) {
+            Comparator<Integer> maxHeapComparator = new Comparator<Integer>() {
+                @Override
+                public int compare(Integer o1, Integer o2) {
+                    return o2 - o1; // Reverse the natural ordering for max-heap
+                }
+            };
+
+            PriorityQueue<Integer> maxHeap = new PriorityQueue<>(maxHeapComparator);
+
+            maxHeap.add(10);
+            maxHeap.add(15);
+            maxHeap.add(5);
+
+            System.out.println(maxHeap.peek());  // Output: 15 (largest element)
+
+            while (!maxHeap.isEmpty()) {
+                System.out.print(maxHeap.poll() + " ");  // Output: 15 10 5 (largest to smallest)
+            }
+        }
+    }
+
+    Priority queye from java:
+    -----------------------
+
+    int[] myArray = {5, 1, 7, 2, 4};
+
+    // Create a priority queue with natural ordering (smallest elements first)
+    PriorityQueue<Integer> pq = new PriorityQueue<>(Arrays.asList(myArray));
+
+    // Print the elements in the priority queue (smallest first)
+    while (!pq.isEmpty()) {
+        System.out.println(pq.poll()); // poll() removes and returns the smallest element
+    }
+

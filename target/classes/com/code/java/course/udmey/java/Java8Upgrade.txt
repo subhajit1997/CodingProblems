@@ -1,0 +1,128 @@
+Top Features of Java 8:
+
+1) Functional Interface: https://www.geeksforgeeks.org/functional-interfaces-java/
+2) Lambda Functions: https://www.geeksforgeeks.org/lambda-expressions-java-8/
+3) For Each: https://www.interviewbit.com/blog/java-8-features/
+4) Optional class: https://www.interviewbit.com/blog/java-8-features/
+
+1) Functional Interface:
+-------------------------
+- Functional Interface is an interface that has exactly one abstract method.
+- They have only one functionality to exhibit.
+- Example: java.lang.Runnable is an example as it has one abstract method run().
+- It can have any number of default methods.
+Before functional interface:
+class Test {
+    public static void main(String args[]) {
+        // create anonymous inner class object
+        new Thread(new Runnable() {
+            @Override public void run() {
+                System.out.println("New thread created");
+            }
+        }).start();
+    }
+}
+Java 8 onwards:
+public static void main(String args[]) {
+    // lambda expression to create the object
+    new Thread(() -> {
+        System.out.println("New thread created");
+    }).start();
+}
+- @FunctionalInterface annotation is used to ensure that the functional interface can’t have more than one abstract method, not mandatory.
+- Java SE 8 included four main kinds of functional interfaces which can be applied in many cases, present in import java.util.function package:
+  - Consumer: Represents an operation that takes a single input and returns no result.
+    Example:
+    Consumer<String> printUpperCase = s -> System.out.println(s.toUpperCase());
+    printUpperCase.accept("hello"); // Output: HELLO
+  - Predicate: Represents a predicate (boolean-valued function) of one argument.
+    Example:
+    Predicate<Integer> isEven = n -> n % 2 == 0;
+    System.out.println(isEven.test(4)); // Output: true
+  - Function: Represents a function that takes one argument and produces a result.
+    Example:
+    Function<Integer, String> convertToString = n -> "Number: " + n;
+    System.out.println(convertToString.apply(42)); // Output: Number: 42
+  - Supplier: Represents a supplier of results, i.e., it doesn't take any input but produces a result.
+    Example:
+    Supplier<Double> getRandomNumber = () -> Math.random();
+    System.out.println(getRandomNumber.get()); // Output: A random double value
+
+2) Lambda Functions:
+--------------------------
+- Introduced in Java 8, Lambda expressions are a concise way to express instances of a single method interface (functional interface).
+- They provide a way to write more readable and compact code by allowing you to treat functions as method arguments.
+- Expression:
+  (parameters) -> expression
+  (parameters) -> { statements; }
+- Examples:
+  - Lambda with no parameters:
+    Runnable runnable = () -> System.out.println("Hello, Lambda!");
+  - Lambda with one parameter:
+    x -> x * x
+  - Lambda with multiple parameters:
+    (int x, int y) -> x + y
+  - Lambda with a block statement:
+    (int x, int y) -> {
+        int sum = x + y;
+        System.out.println("Sum: " + sum);
+        return sum;
+    }
+
+3) For Each:
+---------------------------
+- Method used to iterate over elements of a collection or stream.
+- Syntax:
+  collection.forEach(element -> {
+      // actions to perform on each element
+  });
+- It eliminates the need for index-based iteration, making code cleaner.
+- Example:
+  - Printing elements:
+    List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
+    names.forEach(System.out::println); // Output: Alice, Bob, Charlie
+  - Modifying elements:
+    List<Integer> numbers = Arrays.asList(1, 2, 3);
+    numbers.forEach(number -> number *= 2); // numbers become [2, 4, 6]
+  - Filtering elements:
+    List<String> words = Arrays.asList("hello", "world", "Java");
+    words.stream().filter(word -> word.startsWith("J")).forEach(System.out::println); // Output: Java
+
+4) Optional Class:
+--------------------------
+- It's an object that represents the potential absence of a value, as an alternative to using null references.
+- It helps prevent NullPointerExceptions and promotes more explicit handling of nullable values.
+- Optional class prevents applications from crashing and unexpected termination.
+- Common methods:
+  - Optional.empty(): Creates an empty Optional.
+  - isPresent(): Returns true if a value is present, false otherwise.
+- Example:
+  - Without Optional:
+    String name = null;
+    if (name != null) {
+        System.out.println(name.toUpperCase());
+    } else {
+        System.out.println("Name is null");
+    }
+  - With Optional:
+    Optional<String> optionalName = Optional.ofNullable(name);
+    optionalName.ifPresent(System.out::println); // Output: (nothing printed)
+    optionalName.orElse("Default Name").toUpperCase(); // Output: DEFAULT NAME
+
+5) Stream API:
+---------------------------
+- It encourages concise and expressive code using lambda expressions.
+- You can combine multiple actions (like filtering, mapping, sorting).
+- It doesn't process data until it's absolutely necessary, making it efficient for large datasets.
+- Common operations:
+  - Filtering: Keeps elements which meet certain operations.
+  - Mapping: Transforming elements like uppercase.
+  - Sorting: Arranging elements in a specific order.
+- Example:
+  List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
+  // Print names starting with "B" in uppercase, sorted alphabetically:
+  names.stream()
+       .filter(name -> name.startsWith("B"))
+       .map(String::toUpperCase)
+       .sorted()
+       .forEach(System.out::println); // Output: BOB

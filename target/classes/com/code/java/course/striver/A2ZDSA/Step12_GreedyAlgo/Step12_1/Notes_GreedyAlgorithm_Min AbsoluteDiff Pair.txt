@@ -1,0 +1,39 @@
+Greedy Algorithms in Java | Alpha batch lec 23
+Videos:  https://www.youtube.com/watch?v=3Scx6gRRMY4&t=1446s
+
+
+
+Minimum absolute Difference pair:
+---------------------
+Q) Given two arrays A and B of equal length n . Pair each element of array A to an element in array B, such that sum S
+of Absolute differences of all the pairs is minimum.
+
+A= [1,2,3]
+B= [2,1,3]
+ans =0;
+
+Approach:
+    -   absolute diff = |a-b| == |b-a|
+    -   absolute value if always positive
+        -   case 1: |1-2| +|2-1| +|3-3| = 1+1+0 =2
+        -   case 2: |1-3|+|2-1| +|3-2| = 2+1+1=4
+        -   case 3: |1-1|+|2-2|+|3-3| = 0 <-- ans
+    -   sort both A and B
+
+code:
+    //Time = O(N)logN
+    public class Classroom{
+        public static void main(String args[]){
+            int A[] = {1,2,3};
+            int B[] = {2,1,3};
+
+            Arrays.sort(A);
+            Arrays.sort(B);
+
+            int minDiff =0;
+            for(int i =0;i<A.length;i++){
+                minDiff += Math.abs(A[i]-B[i]);
+            }
+            System.out.println("min absolute: "+minDiff);
+        }
+    }

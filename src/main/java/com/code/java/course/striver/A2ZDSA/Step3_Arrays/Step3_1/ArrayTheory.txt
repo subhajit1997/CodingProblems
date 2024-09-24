@@ -1,0 +1,12 @@
+Arrays Basic Theory :
+------------------------
+youtube : https://youtu.be/37E9ckMDdTk
+
+1) Array are Data Structure that can contain data of any data type  but all elements
+    should be of same types.
+
+    int[] arr = new int[6];
+    Can contain max length of 10^6 inside methods but globally it will be 10^7.
+
+    Array can be accessed using index , start =0 to end=size-1
+

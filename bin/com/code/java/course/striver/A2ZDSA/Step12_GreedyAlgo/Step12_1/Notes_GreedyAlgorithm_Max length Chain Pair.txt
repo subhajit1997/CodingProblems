@@ -1,0 +1,45 @@
+Greedy Algorithms in Java | Alpha batch lec 23
+Videos:  https://www.youtube.com/watch?v=3Scx6gRRMY4&t=1446s
+
+
+
+Max Length chain of pairs:
+---------------------
+Q) Given n pairs of numbers, where the first number in each pair is always smaller than the second number,
+a pair (c, d) can follow another pair (a, b) if b < c. The problem is to find the longest chain of pairs that can be formed.
+
+ For example, if the pairs are
+ {(5, 24),
+ (39, 60),
+ (5, 28),
+ (27, 40),
+ (50, 90)},
+
+  ans = the longest chain is {(5, 24), (27, 40), (50, 90)}, with a length of 3.
+Approach:
+    -   Same type of activity selection
+    -   Sort pairs based on 2nd number
+    - sudo:
+        for(int i=1;i<n;i++)
+            if(pair -> start > lastSelected -> end){
+                ans++;
+                lastSelected -> end;
+            }
+code:
+        public class Classroom{
+            public static void main(String args[]){
+                int pairs[][] = {{5,24},{39,60},{5,28},{27,40},{50,90}};
+                Arrays.sort(pairs,Comparator.comparingDouble(o-> o[1]));
+                int chainLen =1;
+                int chainEnd = pairs[0][1]; //last selected pair end or chain end
+
+                for(int i=1;i<paris.length;i++){
+                    if(paris[i][0] > chainEnd){
+                        chainLen++;
+                        chainEnd = pairs[i][1];
+                    }
+                }
+                System.out.println("max len of chain"+ chainLen);
+            }
+        }
+

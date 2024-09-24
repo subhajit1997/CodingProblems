@@ -1,0 +1,133 @@
+Bit Manipulation
+-------------------
+Striver Bit Manipulation video: https://www.youtube.com/watch?v=5rtVTYAk9KQ
+
+Binary -> 0/1
+(10) = (1010)
+    2        2
+
+(14)    = (1110)
+    2           2
+
+(1011)  = (1*2^3)+(0*2^2)+(1*2^1)+ (1*2^0)
+      2
+
+Operator
+---------
+& ->
+    a&b
+    all 1 -> 0
+    any 0->0
+    a&b ->5&6-> (101)&(110) -> 100 ->4
+    a&b&c -> 5&7&8-> (0101)&(0111)&(1000) ->(0000) -> 0
+| ->
+    a|b
+    any 1 ->1
+    all 0-> 0
+    a|b -> 5|7 ->(101)|(111) -> 111 -> 7
+
+^ ->
+    a^b
+    even 1 -> 0
+    odd 1 -> 1
+    a^b-> 5^7-> 010 -> 2
+    same number zor always 0 -> 5^5 -> 0
+
+~(negation) ->
+    a~b
+    1 becomes 0
+    0 becomes 1
+
+>>(right shift) ->
+    a=5 -> 101
+    a>>1 ->5>>1 -> (10) = 2
+    10>>3 -> (1010)>>3 -> (0001) =1
+
+<<(left shift) ->
+    5 = (0000...32bits..0101)
+    5<<2 = 0101<<2 =10100
+
+Q) arr = {2,1,2,5,6,5,7,7,6} , there are many integers which appear twce find one which is once
+
+->  for(int i=0;i<n;i++)
+    {
+        XOR = XOR ^ a[i];
+    }
+    print(XOR) -> single integer
+
+Q) Two numbers a & b , swap two numbers
+    a=5, b=7
+    ->  a=a^b
+        b=a^b
+        a=a^b
+
+    after swap -> a=7 , b=5
+
+Q) Given N numbers print the XOR of numbers between 1 to N
+->
+for(i->N){
+XOR = XOR ^ i;
+}
+but above time complexity is O(N)
+
+N=1     ->1
+N=2     ->3
+N=3     ->0
+N=4     ->4
+------------
+N=4     ->1
+N=6     ->7
+N=7     _>0
+N=8     ->8
+pattern formation above so code below
+
+if(n%4==0)  print(n)
+if(n%4==1)  print(1)
+if(n%4==2)  print(n+1)
+if(n%4==4)  print(0)
+
+TIME complexity -> O(1)
+
+Q)  Given a ange L-R , find XOR(L^L+1^L+2...R-1^R)
+
+(3-6) -> (3^4^5^6)
+(XOR 6) ^ (XOR 2)
+(1^2^3..^6) ^ (1^2)
+XOR(R) ^ XOR(L-1) -> O(1) Time complexity
+
+Q) Check if N is odd or even
+-> if(N%2 ==0)  even        >>      if(n&1==0)  even
+    else        odd                 else        odd
+
+  (& takes less time so right is better)
+    as 1 at end makes it odd if 0 at end it makes even
+
+
+
+Q) (N,i) -> check if the i'th bit is set
+-> we will do this by placing 1 at that i'th bit
+
+
+          11001
+   mask-> 01000
+   -------------
+          01000  !=0
+
+   mask = (1<<i)
+   boolean = (mask & N)
+
+Q) set the i'th bit of a number
+->
+     110010 -> after set ith bit (i=2) -> 110110
+
+     using mask with OR operator
+
+     i=2
+     110010
+mask>000100
+     --------
+     110110
+
+        mask = (1<<i)
+        n = (N | mask)
+

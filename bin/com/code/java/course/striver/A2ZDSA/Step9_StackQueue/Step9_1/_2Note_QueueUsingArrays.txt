@@ -1,0 +1,22 @@
+Implement Queue using Arrays
+---------------------------
+https://takeuforward.org/data-structure/implement-queue-using-array/
+
+Queue is a Data structure that allows First in First Out FIFO,
+
+eg->
+push(4)
+push(2)
+push(3)
+
+| 4 |
+| 2 |
+| 3 |
+
+top() -> 4
+pop()
+top() -> 2
+
+Implement using array
+->
+

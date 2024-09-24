@@ -1,0 +1,112 @@
+
+undirected graph
+ [1] -- [2]\
+ |       |   \
+ |       |    [5]
+ |       |   /
+ [3] -- [4] /
+
+ Node,N= 5
+ edges,M = 6
+
+ Give M lines :(input)
+  1 2
+  1 3
+  3 4
+  2 4
+  2 5
+  4 5
+
+  Store in :
+    1) Matrix
+    2) List
+
+    adjacency Matrix:
+    ------
+
+        0   1   2   3   4   5
+    0   0   0   0   0   0   0
+    1   0   0   1   1   0   0
+    2   0   1   0   0   1   1
+    3   0   1   0   0   1   0
+    4   0   0   1   1   0   1
+    5   0   0   1   0   1   0
+
+    space(N*N)
+    Not used widely as space is large
+
+    code:
+    import java.io.*;
+    class GFG {
+    public static void main (String[] args) {
+
+       int n = 3, m = 3;
+       int adj[][] = new int[n+1] [n+1];
+
+       // edge 1---2
+       adj[1][2] = 1;
+       adj[2][1] = 1;
+
+       // edge 2---3
+       adj[2][3] = 1;
+       adj[3][2] = 1;
+
+       // adge 1--3
+       adj[1][3] = 1;
+       adj[3][1] = 1;
+
+       adj[u][v] = 1;
+       adj[v][u] = 1; |
+
+    }
+    }
+
+    adjacency List:
+    --------
+    ArrayList<ArrayList<>>
+
+    0   ->{}
+    1   ->{2,4}
+    2   ->{1,4,5}
+    3   ->{1,4}
+    4   ->{2,3,5}
+    5   ->{2,4}
+
+    Space: O(2*Edges)
+
+    code:
+
+    import java.io.*;
+    import java.util.*;
+    class GFG {                                                                                                                        public static void main (String[] args) {
+
+        int \(n=3 m=3\) ;
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<ArrayList<Integer> >();
+
+        // \(n+1\)
+        for (int \(i=0\) i <= n; i++)
+            adj.add(new ArrayList<Integer>());
+
+        // edge 1---2
+        adj.get(1).add(2);
+        adj.get(2).add(1);
+
+        adj.get(u).add(v);
+        adj.get(v).add(u);
+
+        // edge 2---3
+        adj.get(2).add(3);
+        adj.get(3).add(2);
+
+        // adge 1--3
+        adj.get(1).add(3);
+        adj.get(3).add(1);
+
+        for (int \(i=1\) i < n; i++) {
+            for (int \(j=0\) j < adj.get(i).size(); j++) {
+                System.out.print(adj.get(i).get(j)+" ");
+            }
+            System.out.println();
+        }
+     }
+
