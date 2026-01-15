@@ -1,0 +1,3255 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "_14thJan",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture24._14thJan",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_13thJan",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture23._13thJan",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8thJan",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture22._8thJan",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7thJan",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture21._7thJan",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_6thJan",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture20._6thJan",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Contest4",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture19.Contest4",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_31stDec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture19._31stDec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_30thDec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture18._30thDec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_24thDec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture17._24thDec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_23rdDec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture16._23rdDec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Contest3",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture13.Contest3",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3rdDec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture8._3rdDec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_17thDec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture14._17thDec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_16Dec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture13._16Dec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_11Dec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture12._11Dec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_10thDec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture11._10thDec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9thDec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture10._9thDec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Contest2",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture9.Contest2",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4thDec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture9._4thDec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2ndDec",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture7._2ndDec",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_26thNov",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture6._26thNov",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_25thNov",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture5._25thNov",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Contest1",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture4.Contest1",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_20thNov",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture4._20thNov",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_19Nov",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture3._19Nov",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_18Nov",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks.Lecture2._18Nov",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_18Nov",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks._18Nov",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AbstractFactory",
+            "request": "launch",
+            "mainClass": "com.code.designpattern.AbstractFactory",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BuilderPattern",
+            "request": "launch",
+            "mainClass": "com.code.designpattern.BuilderPattern",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_10MinimumConferenceRooms",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._10MinimumConferenceRooms",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_11ArrayRotation",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._11ArrayRotation",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_12LongestConsecutiveSubsequence",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._12LongestConsecutiveSubsequence",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1TwoSum",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._1TwoSum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2MaximumSubarraySum",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._2MaximumSubarraySum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3MinimumValueToGetPositiveStep",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._3MinimumValueToGetPositiveStep",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4DegreeOfAnArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._4DegreeOfAnArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_5CommonElementsInSortedArrays",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._5CommonElementsInSortedArrays",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_6FindKthMissingElementSortedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._6FindKthMissingElementSortedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7EqualizeArrayByIterations",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._7EqualizeArrayByIterations",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8FirstMissingPositive",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._8FirstMissingPositive",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9MaximumMinAllSubarraysofSize",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Array._9MaximumMinAllSubarraysofSize",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2TrappingRainWater",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.DynamicProgramming._2TrappingRainWater",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1BFS",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Graphs._1BFS",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2DijkstrasAlgorithm",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Graphs._2DijkstrasAlgorithm",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1MergeTwoSortedLinkedLists",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.LinkedLists._1MergeTwoSortedLinkedLists",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2ImplementAStackusingALinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.LinkedLists._2ImplementAStackusingALinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.LinkedLists._3ReverseLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1spiralmatrix",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Others._1spiralmatrix",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2mergeIntervals",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Others._2mergeIntervals",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3Stocksellandbuy",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Others._3Stocksellandbuy",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1ReverseAString",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Strings._1ReverseAString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2CheckForBalancedParentheses",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Strings._2CheckForBalancedParentheses",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3FindCharacterWithHighestFrequency",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Strings._3FindCharacterWithHighestFrequency",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4CaesarCipherDecryption",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Strings._4CaesarCipherDecryption",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1BinaryTreeLevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Trees._1BinaryTreeLevelOrderTraversal",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2SpiralLevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Trees._2SpiralLevelOrderTraversal",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3ZigzagLevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.code.java.company.AthenaHealth.Trees._3ZigzagLevelOrderTraversal",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Guidewire.Test",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BitSetRepeatingDigit",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.BitSetRepeatingDigit",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.BubbleSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ExactlyOneChild_BST",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.ExactlyOneChild_BST",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "LongestIncreasingSubsequence",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.LongestIncreasingSubsequence",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.MergeSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MinimiseTheMaxmimum",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.MinimiseTheMaxmimum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MinimumNumberofPlatformNeeded",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.MinimumNumberofPlatformNeeded",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.QuickSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedListII",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.ReverseLinkedListII",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ReversetheString",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.ReversetheString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SingleElementSortedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.SingleElementSortedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "UniqueElementsInArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.UniqueElementsInArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "VerticalOrderTraversalOfBinaryTree",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Lenskart.VerticalOrderTraversalOfBinaryTree",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Others.Example",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MessageProcessor",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Others.MessageProcessor",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Others.Practice",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "StackImplementation",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Others.StackImplementation",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "StreamAPiExamples",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Others.StreamAPiExamples",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1FindTheAverageOfElements",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFive.Array._1FindTheAverageOfElements",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2FindUniqueElementsInArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFive.Array._2FindUniqueElementsInArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3FirstNHighestNumbers",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFive.Array._3FirstNHighestNumbers",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4DeterminerepeatedPairsInArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFive.Array._4DeterminerepeatedPairsInArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1LongestUniqueSubsequence",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFive.String._1LongestUniqueSubsequence",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "AverageElementArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.AverageElementArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BFSGraph",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.BFSGraph",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BarrenLandAnalysis",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.BarrenLandAnalysis",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.BinarySearch",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.BubbleSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Extra",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.Extra",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "HeapSort",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.HeapSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "HighestNumbers",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.HighestNumbers",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.InsertionSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "IslandCounter",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.IslandCounter",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.LinearSearch",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "LongestIncreasingPathMatrix",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.LongestIncreasingPathMatrix",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.MergeSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDublicateStringArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.RemoveDublicateStringArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "RepeatedPairs",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.RepeatedPairs",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.ReverseLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "UniqueLongestSequenceString",
+            "request": "launch",
+            "mainClass": "com.code.java.company.Target.TwentyFour.UniqueLongestSequenceString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Flattenobject",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech.Flattenobject",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListReverse",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech.LinkedListReverse",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MergeTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech.MergeTwoSortedArrays",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SieveofEratosthenesFindallPrimeNumbers",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech.SieveofEratosthenesFindallPrimeNumbers",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SplitArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech.SplitArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ValidParenthetis",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech.ValidParenthetis",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1AssignCookies",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech._1AssignCookies",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1TwoSumProblem",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech._1TwoSumProblem",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2BestTimetoBuyandSellStock",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech._2BestTimetoBuyandSellStock",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech._3ContainsDuplicate",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4MinimumNumberOfPlatformsRequire",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech._4MinimumNumberOfPlatformsRequire",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_LongestSubstringWithoutRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "com.code.java.company.WissenTech._LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CommonElementsBetween2arrays",
+            "request": "launch",
+            "mainClass": "com.code.java.company.accolite.CommonElementsBetween2arrays",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CommonSubstringsBetweenTwoStrings",
+            "request": "launch",
+            "mainClass": "com.code.java.company.accolite.CommonSubstringsBetweenTwoStrings",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MissingFirstPosistiveNumberArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.accolite.MissingFirstPosistiveNumberArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeFromGivenList",
+            "request": "launch",
+            "mainClass": "com.code.java.company.accolite.PalindromeFromGivenList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ReplacetheSubstringforBalancedString",
+            "request": "launch",
+            "mainClass": "com.code.java.company.accolite.ReplacetheSubstringforBalancedString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "com.code.java.company.accolite.RotateArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "frequencyOfEachCharacterInString",
+            "request": "launch",
+            "mainClass": "com.code.java.company.accolite.frequencyOfEachCharacterInString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "maxSubarraySum",
+            "request": "launch",
+            "mainClass": "com.code.java.company.accolite.maxSubarraySum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_13Nov",
+            "request": "launch",
+            "mainClass": "com.code.java.course.codingblocks._13Nov",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ArrayInsertAtEnd",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems.ArrayInsertAtEnd",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ArrayInsertAtIndex",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems.ArrayInsertAtIndex",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CheckIfArrayIsSortedAndRotated",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems.CheckIfArrayIsSortedAndRotated",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MaxAndSecondMax",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems.MaxAndSecondMax",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MaximumIndex",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems.MaximumIndex",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MeanAndMedianOfArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems.MeanAndMedianOfArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ReverseArrayInGroups",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems.ReverseArrayInGroups",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_10_ArrayLeaders",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems._10_ArrayLeaders",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_11_RearrangeArrayAlternately",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems._11_RearrangeArrayAlternately",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_12_SmallestPositiveMissing",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems._12_SmallestPositiveMissing",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_13_FrequenciesInALimitedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems._13_FrequenciesInALimitedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_14_StockBuyAndSell",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems._14_StockBuyAndSell",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_15_TrappingRainWater",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems._15_TrappingRainWater",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_16_KadanesAlgorithm",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems._16_KadanesAlgorithm",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8_RearrangeAnArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems._8_RearrangeAnArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9_RotateArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.problems._9_RotateArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListinJava",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.ArrayListinJava",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "EquilibriumPoint",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.EquilibriumPoint",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "LongestEvenOddSubarray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.LongestEvenOddSubarray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElement",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.MajorityElement",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MaximumAppearingElement",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.MaximumAppearingElement",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MaximumCircularSumSubarray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.MaximumCircularSumSubarray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Maximumconsecutive1s",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.Maximumconsecutive1s",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Maximumsubarraysum",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.Maximumsubarraysum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MinimumConsecutiveFlips",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.MinimumConsecutiveFlips",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PrefixSum",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.PrefixSum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SlidingWindowTechnique",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.SlidingWindowTechnique",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "StockBuyandSellProblem",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.StockBuyandSellProblem",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayWithGivenSum",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.SubarrayWithGivenSum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainWater",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.arrays.videos.TrappingRainWater",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CountTotalDigitsInANumber",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.CountTotalDigitsInANumber",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "DigitalRoots",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.DigitalRoots",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciUsingRecursion",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.FibonacciUsingRecursion",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Josephusproblem",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.Josephusproblem",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "LuckyNumbers",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.LuckyNumbers",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PossibleWordsFromPhoneDigits",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.PossibleWordsFromPhoneDigits",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PowerOfNumbers",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.PowerOfNumbers",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PowerSetUsingRecursion",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.PowerSetUsingRecursion",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PowerUsingRecursion",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.PowerUsingRecursion",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Print1ToNWithoutLoop",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.Print1ToNWithoutLoop",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SumofDigitsofaNumber",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.SumofDigitsofaNumber",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.problems.TowerOfHanoi",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "GenerateSubsets",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.videos.GenerateSubsets",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "JosephusProblem",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.videos.JosephusProblem",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PrintingallPermutations",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.videos.PrintingallPermutations",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "RopeCuttingProblem",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.videos.RopeCuttingProblem",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SubsetSumProblem",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.videos.SubsetSumProblem",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigitsUsingRecurssion",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.videos.SumOfDigitsUsingRecurssion",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.recursion.videos.TowerOfHanoi",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_10_SearchInSortedRotatedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.searching.videos._10_SearchInSortedRotatedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_11_FindAPeakElement",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.searching.videos._11_FindAPeakElement",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1_BinarySearchIterative",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.searching.videos._1_BinarySearchIterative",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2_BinarySearchRecursive",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.searching.videos._2_BinarySearchRecursive",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4_IndexOfFirstOccurrenceInSorted",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.searching.videos._4_IndexOfFirstOccurrenceInSorted",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_5_IndexOflastOccurrenceInSorted",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.searching.videos._5_IndexOflastOccurrenceInSorted",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_6_CountOccurrencesInSorted",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.searching.videos._6_CountOccurrencesInSorted",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7_Count1sInASortedBinaryArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.searching.videos._7_Count1sInASortedBinaryArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8_SquareRoot",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.searching.videos._8_SquareRoot",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9_SearchInInfiniteSizedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week2.searching.videos._9_SearchInInfiniteSizedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7_ImplementationOfChaining",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.hashing.videos._7_ImplementationOfChaining",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3_MultidimensionalArrayInJava",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.matrix.videos._3_MultidimensionalArrayInJava",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4_Passing2Darrays",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.matrix.videos._4_Passing2Darrays",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_5_MatrixInSnakeProblem",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.matrix.videos._5_MatrixInSnakeProblem",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_6_MatrixBoundaryTraversal",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.matrix.videos._6_MatrixBoundaryTraversal",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7_TransposeOfAMatrix",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.matrix.videos._7_TransposeOfAMatrix",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8_RotateMatrixAntiClockwise",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.matrix.videos._8_RotateMatrixAntiClockwise",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9_SpiralTraversal",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.matrix.videos._9_SpiralTraversal",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_11_MergeTwoArraysSorted",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.sorting.videos._11_MergeTwoArraysSorted",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_12_MergeFunctionOfMergeSort",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.sorting.videos._12_MergeFunctionOfMergeSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_13_MergeSortingAlgorithm",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.sorting.videos._13_MergeSortingAlgorithm",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_15_IntersectionOfTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.sorting.videos._15_IntersectionOfTwoSortedArrays",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4_ArraysSort",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.sorting.videos._4_ArraysSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7_BubbleSort",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.sorting.videos._7_BubbleSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8_SelectionSort",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.sorting.videos._8_SelectionSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9_InsertionSort",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week3.sorting.videos._9_InsertionSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_10_InsertAtTheEndOfSinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._10_InsertAtTheEndOfSinglyLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_11_InsertAtGivenPositionInSinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._11_InsertAtGivenPositionInSinglyLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_12_DeleteFirstNodeOfSinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._12_DeleteFirstNodeOfSinglyLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_13_DeleteLastOfSinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._13_DeleteLastOfSinglyLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_14_SearchInALinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._14_SearchInALinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_16_DoublyLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._16_DoublyLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_18InsertAtBeginOfDoubly",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._18InsertAtBeginOfDoubly",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_19InsertAtEndDoublyLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._19InsertAtEndDoublyLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_20ReverseADoublyLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._20ReverseADoublyLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_21DeleteHeadOfADoublyLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._21DeleteHeadOfADoublyLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_22DeleteaTailOfADoublyLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._22DeleteaTailOfADoublyLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_23CircularLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._23CircularLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_26CircularLinkedListTraversal",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._26CircularLinkedListTraversal",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_27InsertAtBeginOfCircularLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._27InsertAtBeginOfCircularLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_28InsertEndCircularLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._28InsertEndCircularLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_32SortedInsertInASinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._32SortedInsertInASinglyLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_33MiddleOflinkedlist",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._33MiddleOflinkedlist",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_34NthNodeFromEndofLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._34NthNodeFromEndofLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_35ReverseAlinkedlistiterative",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._35ReverseAlinkedlistiterative",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_41Detectloop",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._41Detectloop",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4_SimpleLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._4_SimpleLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7_TraversingLinkedListJava",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._7_TraversingLinkedListJava",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8_RecursiveTraversalSinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._8_RecursiveTraversalSinglyLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9_InsertAtBeginSinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.LinedList.videos._9_InsertAtBeginSinglyLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_11_NaivePatternSearching",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._11_NaivePatternSearching",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_16_CheckIfStringsAreRotations",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._16_CheckIfStringsAreRotations",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_17_AnagramSearch",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._17_AnagramSearch",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1_IntroductiontoString",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._1_IntroductiontoString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3_StringinJava",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._3_StringinJava",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4_PalindromeCheck",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._4_PalindromeCheck",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_5_CheckIfAStringIsSubsequenceOfOther",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._5_CheckIfAStringIsSubsequenceOfOther",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_6_CheckForAnagram",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._6_CheckForAnagram",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7_LeftmostRepeatingCharacter",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._7_LeftmostRepeatingCharacter",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8_LeftmostNonRepeatingElement",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._8_LeftmostNonRepeatingElement",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9_ReverseWordsInAString",
+            "request": "launch",
+            "mainClass": "com.code.java.course.gfg.Week4.Strings.videos._9_ReverseWordsInAString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1LongestSubstringWithoutRepeatingChar",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step10_SlidingWindow.Step10_1._1LongestSubstringWithoutRepeatingChar",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8MaximumPointYouCanObtainCards",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step10_SlidingWindow.Step10_1._8MaximumPointYouCanObtainCards",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1IntroductionToPriorityQueues",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step11_Heaps.Step11_1._1IntroductionToPriorityQueues",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2MinHeapImplementation",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step11_Heaps.Step11_1._2MinHeapImplementation",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4ConvertMinHeapToMaxHeap",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step11_Heaps.Step11_1._4ConvertMinHeapToMaxHeap",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1AssignCookies(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step12_GreedyAlgo.Step12_1._1AssignCookies",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3MinimumNumberOfCoins",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step12_GreedyAlgo.Step12_1._3MinimumNumberOfCoins",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_5ValidParanthesisChecker",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step12_GreedyAlgo.Step12_1._5ValidParanthesisChecker",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_10MergeIntervals",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step12_GreedyAlgo.Step12_2._10MergeIntervals",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1NMeetingsInOneRoom",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step12_GreedyAlgo.Step12_2._1NMeetingsInOneRoom",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4MinimumNumberOfPlatformsRequire(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step12_GreedyAlgo.Step12_2._4MinimumNumberOfPlatformsRequire",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8VerticalOrderTraversalOfBinaryTree",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step13_BinaryTrees.Step13_2._8VerticalOrderTraversalOfBinaryTree",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1LongestIncreasingSubsequence",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step16_DP.Step16_7._1LongestIncreasingSubsequence",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern1",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern10",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern10",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern11",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern11",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern12",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern12",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern13",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern13",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern14",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern14",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern15",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern15",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern16",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern16",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern17",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern17",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern18",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern18",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern19",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern19",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern2",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern2",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern20",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern20",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern21",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern21",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern22",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern22",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern23",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern23",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern3",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern3",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern4",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern4",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern5",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern5",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern6",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern6",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern7",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern7",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern8",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern8",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Pattern9",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_2.Pattern9",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongNumb",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_4.ArmstrongNumb",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CheckPalindrome",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_4.CheckPalindrome",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrime",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_4.CheckPrime",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CountDigits",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_4.CountDigits",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "GCD",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_4.GCD",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ReverseInteger",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_4.ReverseInteger",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "sum_of_divisors",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_4.sum_of_divisors",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "FactorialRecursion",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_5.FactorialRecursion",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciNumber",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_5.FibonacciNumber",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeCheck",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_5.PalindromeCheck",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PrintRecursionNTimes",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_5.PrintRecursionNTimes",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Recursion1toN",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_5.Recursion1toN",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "RecursionNto1",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_5.RecursionNto1",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_5.ReverseArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SumOfRecursive",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_5.SumOfRecursive",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CountFrequesncyInRange",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_6.CountFrequesncyInRange",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "FrequencyOfMstFrequentElement",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step1_Basics.Step1_6.FrequencyOfMstFrequentElement",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort(2)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step2_Softing.Step2_1.BubbleSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step2_Softing.Step2_1.InsertionSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step2_Softing.Step2_1.SelectionSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort(2)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step2_Softing.Step2_2.MergeSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step2_Softing.Step2_2.QuickSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lec1",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Practice.Practice_Lec1",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lec2",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Practice.Practice_Lec2",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lect3",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Practice.Practice_Lect3",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_10MaximumConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._10MaximumConsecutiveOnes",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_11_MissingNumberArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._11_MissingNumberArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_12_SingleNumber",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._12_SingleNumber",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_13LongestSubArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._13LongestSubArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_14LongestSubArrayWithNegativeNumbers",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._14LongestSubArrayWithNegativeNumbers",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1LargestElementInArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._1LargestElementInArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2SecondSmallest_SecondLargestElement",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._2SecondSmallest_SecondLargestElement",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3CheckArraySorted",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._3CheckArraySorted",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4_RemoveDuplicatesSortedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._4_RemoveDuplicatesSortedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_6RotateArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._6RotateArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7_MoveZerosToEnd",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._7_MoveZerosToEnd",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8LinearSearch",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._8LinearSearch",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9_UnionOfTwoSortedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_1._9_UnionOfTwoSortedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CountSubArrayGivenSum",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2.CountSubArrayGivenSum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_10LongestConsecutiveSequenceArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._10LongestConsecutiveSequenceArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_11SetMatrixZeros",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._11SetMatrixZeros",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_12_RotateMatrix90Degree",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._12_RotateMatrix90Degree",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_13SpiralMatrix",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._13SpiralMatrix",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1TwoSum(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._1TwoSum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2SortColor0s1s2s",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._2SortColor0s1s2s",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3MajorityElement",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._3MajorityElement",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4MaximumSubArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._4MaximumSubArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_6StockBuyAndSell",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._6StockBuyAndSell",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7RearrangeArrayBySign",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._7RearrangeArrayBySign",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8NextPermutation",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._8NextPermutation",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9LeaderInArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2._9LeaderInArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "FourSum_4Sum",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_3.FourSum_4Sum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubarrayWith0Sum",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_3.LongestSubarrayWith0Sum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElement(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_3.MajorityElement",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PascalsTriangle",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_3.PascalsTriangle",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayWithGivenXOR",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_3.SubarrayWithGivenXOR",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ThreeSum_3Sum",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_3.ThreeSum_3Sum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_12MaximumProductSubarrayArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_3._12MaximumProductSubarrayArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7MergeOverlappingSubInternal",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_3._7MergeOverlappingSubInternal",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8MergeTwoSortedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_3._8MergeTwoSortedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_9FindRepeatingMissingNumbers",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_3._9FindRepeatingMissingNumbers",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchFindXInSortedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.BinarySearchFindXInSortedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CountOccurrencesInSortedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.CountOccurrencesInSortedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "FindFirstAndLastPosition",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.FindFirstAndLastPosition",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "FindMinimumInRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.FindMinimumInRotatedSortedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Floor_Ceil_In_Sorted_Array",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.Floor_Ceil_In_Sorted_Array",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "LowerBound",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.LowerBound",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SearchInRotatedSortedArrayI",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.SearchInRotatedSortedArrayI",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SearchInRotatedSortedArrayII",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.SearchInRotatedSortedArrayII",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.SearchInsertPosition",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SearchSingleElementInSortedArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.SearchSingleElementInSortedArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "UpperBound",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_1.UpperBound",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1FindingSqrtOfANumberUsingBinarySearch",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_2._1FindingSqrtOfANumberUsingBinarySearch",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3KokoEatingBananas",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step4_BinarySearch.Step4_2._3KokoEatingBananas",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lect1",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Practice.Practice_Lect1",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lect2",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Practice.Practice_Lect2",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1RemoveOutermostParanthesis",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_1._1RemoveOutermostParanthesis",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2ReverseWordsinaString",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_1._2ReverseWordsinaString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3LargestOddNumberInAString",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_1._3LargestOddNumberInAString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_1._4LongestCommonPrefix",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_5IsomorphicString",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_1._5IsomorphicString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_6CheckWhetherOneStringIsARotated",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_1._6CheckWhetherOneStringIsARotated",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7ValidAnagram",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_1._7ValidAnagram",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1SortCharactersByFrequency",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_2._1SortCharactersByFrequency",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2MaximumNestingDepthOfParenthesis",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_2._2MaximumNestingDepthOfParenthesis",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3RomanNumberToInteger",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_2._3RomanNumberToInteger",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_6LongestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_2._6LongestPalindromicSubstring",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7SumofBeautyofAllSubstrings",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_2._7SumofBeautyofAllSubstrings",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8ReverseWordsInAString",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step5_Strings.Step5_2._8ReverseWordsInAString",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lect1(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Practice.Practice_Lect1",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lect2(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Practice.Practice_Lect2",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lect3(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Practice.Practice_Lect3",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lect4",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Practice.Practice_Lect4",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lect5",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Practice.Practice_Lect5",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1IntroductionToLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_1._1IntroductionToLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_14Add2NumbersInLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_3._14Add2NumbersInLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1MiddleOfALinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_3._1MiddleOfALinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2ReverseALinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_3._2ReverseALinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3ReverseALinkedListRecursive",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_3._3ReverseALinkedListRecursive",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4DetectALoopInLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_3._4DetectALoopInLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7CheckLLPalindromeOrNot",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_3._7CheckLLPalindromeOrNot",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1DeleteAlloccurrencesOfDLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_4._1DeleteAlloccurrencesOfDLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2DeletealloccurrencesofakeyinDLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_4._2DeletealloccurrencesofakeyinDLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3RemoveduplicatesfromsortedDLL",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_4._3RemoveduplicatesfromsortedDLL",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1ReverseLinkedListIngroups",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_5._1ReverseLinkedListIngroups",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2RotateALinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step6_LinkedList.Step6_5._2RotateALinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lect1(2)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step7_Recursion.Practice.Practice_Lect1",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Lect2(2)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step7_Recursion.Practice.Practice_Lect2",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2PowerOfXOnN",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step7_Recursion.Step7_1._2PowerOfXOnN",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3PrintAllSubsequencesPowerSet",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step7_Recursion.Step7_2._3PrintAllSubsequencesPowerSet",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4AllPatternsOfSubsequences",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step7_Recursion.Step7_2._4AllPatternsOfSubsequences",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7CombinationSum",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step7_Recursion.Step7_2._7CombinationSum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1PalindromePartitioning",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step7_Recursion.Step7_3._1PalindromePartitioning",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2WordSearch",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step7_Recursion.Step7_3._2WordSearch",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3NQueen",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step7_Recursion.Step7_3._3NQueen",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4RatInAMaze",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step7_Recursion.Step7_3._4RatInAMaze",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4CheckIfNumberPowerOf2",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step8_BitManipulation.Step8_1._4CheckIfNumberPowerOf2",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_7SwapTwoNumbers",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step8_BitManipulation.Step8_1._7SwapTwoNumbers",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_8DivideTwoIntegers",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step8_BitManipulation.Step8_1._8DivideTwoIntegers",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2FindOddOccurrenceOfNumber",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step8_BitManipulation.Step8_2._2FindOddOccurrenceOfNumber",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3PowerSet",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step8_BitManipulation.Step8_2._3PowerSet",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1ImplementStackUsingArrays",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.A2ZDSA.Step9_StackQueue.Step9_1._1ImplementStackUsingArrays",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1TwoSumProblem(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.Blind_75_Sheet.Day1_Arrays._1TwoSumProblem",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2BestTimetoBuyandSellStock(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.Blind_75_Sheet.Day1_Arrays._2BestTimetoBuyandSellStock",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3ContainsDuplicate(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.Blind_75_Sheet.Day1_Arrays._3ContainsDuplicate",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_5KadaneAlgorithmMaximumSubarraySum",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.Blind_75_Sheet.Day1_Arrays._5KadaneAlgorithmMaximumSubarraySum",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_LongestSubstringWithoutRepeatingCharacters(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.striver.Blind_75_Sheet.Day8_Strings._LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "DoublySinglyLinkedListOperations",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section10.DoublySinglyLinkedListOperations",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Question14",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section12.Question14",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Question15",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section12.Question15",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise1",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section17.Exercise1",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise10",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section17.Exercise10",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise2",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section17.Exercise2",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise3",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section17.Exercise3",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise4",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section17.Exercise4",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise5",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section17.Exercise5",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise6",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section17.Exercise6",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise7",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section17.Exercise7",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise8",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section17.Exercise8",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise9",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section17.Exercise9",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_1SumOfDigits",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section18._1SumOfDigits",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_2PowerOfNumber",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section18._2PowerOfNumber",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_3gcd",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section18._3gcd",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "_4decimalToBinary",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section18._4decimalToBinary",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BasicTree",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section20.BasicTree",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeLinkedList",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section20.BinaryTreeLinkedList",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchTreeOperations",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section21.BinarySearchTreeOperations",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "GraphAdjacencyMatrix",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section28.GraphAdjacencyMatrix",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "GraphAdjacencyMatrix(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section29.GraphAdjacencyMatrix",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "TwoDimensionalArray",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section3.TwoDimensionalArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "AboveAverageTemperature",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section4.AboveAverageTemperature",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "EXERCISE13",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.EXERCISE13",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise1(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise1",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise10(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise10",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise11",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise11",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise12",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise12",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise2(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise2",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise3(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise3",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise4(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise4",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise5(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise5",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise6(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise6",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise7(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise7",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise8(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise8",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Exercise9(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section5.Exercise9",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListExample",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section6.ArrayListExample",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "SingleLiskedListOperations",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section8.SingleLiskedListOperations",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CircularSinglyLinkedListOperations",
+            "request": "launch",
+            "mainClass": "com.code.java.course.udmey.dsa_masterclass.section9.CircularSinglyLinkedListOperations",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "DocumentDistance",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.Extra.DocumentDistance",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "PeakElement2D",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.Extra.PeakElement2D",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Practice(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.Extra.Practice",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.algorithm.search.BinarySearch",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.algorithm.search.LinearSearch",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort(3)",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.algorithm.sort.BubbleSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "HeapSort(1)",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.algorithm.sort.HeapSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort(2)",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.algorithm.sort.InsertionSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort(3)",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.algorithm.sort.MergeSort",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "AVLTree",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.algorithm.tree.AVLTree",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTree",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.algorithm.tree.BinaryTree",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTree1",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.algorithm.tree.BinaryTree1",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "I_BuildingArrayFromPermutation",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.leetcode.array.I_BuildingArrayFromPermutation",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "I_ConcatenationOfArray",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.leetcode.array.I_ConcatenationOfArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "I_ShuffleTheArray",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.leetcode.array.I_ShuffleTheArray",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Solution1313",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.leetcode.randomSolution.Solution1313",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Solution1389",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.leetcode.randomSolution.Solution1389",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Solution1678",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.leetcode.randomSolution.Solution1678",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Solution1720",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.leetcode.randomSolution.Solution1720",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Solution1791",
+            "request": "launch",
+            "mainClass": "com.code.java.practice.leetcode.randomSolution.Solution1791",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "CollectionsExample",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.CollectionsExample",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Example12",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.Example12",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ExampleExtendsThread",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.ExampleExtendsThread",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ExampleRunnable",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.ExampleRunnable",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandling",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.ExceptionHandling",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Java8Upgrade",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.Java8Upgrade",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "MultiThreadingExample",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.MultiThreadingExample",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "NonRepeatingCharacter",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.NonRepeatingCharacter",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "OOPSExample",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.OOPSExample",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "TestingCalculator",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.TestingCalculator",
+            "projectName": "CodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "TestingStream",
+            "request": "launch",
+            "mainClass": "com.learning.JAVA.TestingStream",
+            "projectName": "CodingProblems"
+        }
+    ]
+}

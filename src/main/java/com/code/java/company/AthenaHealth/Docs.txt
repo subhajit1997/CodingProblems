@@ -1,0 +1,166 @@
+---
+
+## 🔢 Arrays
+
+### Easy
+
+* **Two Sum**  ✅ 
+* **Maximum Subarray Sum (Kadane’s Algorithm)**✅ 
+* **Minimum Value to Get Positive Step by Step Sum**✅ 
+* **Degree of an Array**✅ 
+* **Common Elements in Sorted Arrays**✅ 
+
+### Medium
+
+* **Find the kth Missing Element in a Sorted Array**✅ 
+* **Array Game (Equalize Array by Iterations)**✅ 
+
+### Hard
+
+* **First Missing Positive**✅ 
+* **Maximum of Minimums of All Subarrays of Size k**✅ 
+* **Minimum Conference Rooms (Meeting Rooms II)**✅ 
+* *Array Rotation (Left or Right)✅ 
+* *Longest Consecutive Subsequence)✅ 
+
+---
+
+## 📄 Strings
+
+### Easy
+
+* **Reverse a String (Iterative and Recursive)**✅
+* **Check for Balanced Parentheses**✅ 
+
+### Medium
+
+* **Find Character with Highest Frequency **✅ 
+
+### Hard
+
+* **Caesar Cipher Decryption**✅ 
+
+---
+
+## 🔗 Linked Lists
+
+### Easy
+
+* **Merge Two Sorted Linked Lists**✅ 
+
+### Medium
+
+* **Implement a Stack using a Linked List**✅ 
+* **Reverse linked list✅ 
+* *Binary Search on Linked List✅ 
+* *Cycle Detection in Linked List✅ 
+---
+
+## 🌳 Trees
+
+### Medium
+
+* **Binary Tree Level Order Traversal**✅ 
+* **Spiral / Zigzag Level Order Traversal✅ 
+* **Lowest Common Ancestor (LCA)
+---
+
+## 🌐 Graphs
+
+### Medium
+
+* **Graph Traversals (BFS and DFS)**✅
+
+### Hard
+
+* **Dijkstra’s Algorithm**✅
+
+---
+
+## 🧱 Stacks & Queues
+
+### Easy
+
+* **Check for Balanced Parentheses**✅
+  (Same as in Strings) Use a stack to verify that all opening and closing brackets are properly nested and matched.
+
+### Medium
+
+* **Implement a Stack using Queues**
+  Use one or two queues to simulate stack operations (LIFO). Implement push, pop, top, and empty methods.
+
+---
+
+## ⛓️ Heaps / Priority Queue
+
+### Hard
+
+* **Minimum Conference Rooms (Meeting Rooms II)**
+  (Same as in Arrays) Track ongoing meetings using a min-heap based on end times and compute the minimum number of rooms required.
+
+---
+
+## #️⃣ Hashing
+
+### Easy
+
+* **Two Sum**✅
+  (Same as in Arrays) Solve using a hash map for constant time lookups.
+
+* **Find Character with Highest Frequency (ASCII Tiebreaker)**✅
+  (Same as in Strings) Use a hash map to count character frequencies.
+
+### Medium
+
+* **HashMap vs. Hashtable in Java**
+  Discuss differences such as thread-safety, synchronization, null keys/values, and performance.
+
+* **HashMap vs. HashSet in Java**
+  Explain conceptual and practical differences. HashMap stores key-value pairs; HashSet stores unique values internally using a HashMap.
+
+---
+
+## 🧠 Dynamic Programming
+
+### Medium
+
+* **Bitonic Array Problem**
+  Given a bitonic array (first increasing, then decreasing), find the peak element or compute an optimized value (e.g., max product, longest subarray, etc.).
+
+### Hard
+
+* **Trapping Rain Water**✅
+  Given n non-negative integers representing an elevation map, compute how much water can be trapped after raining. Use dynamic programming or two-pointer techniques.
+
+
+
+Others:
+-------
+spiral matrix✅
+merge intervals✅
+1. Stock sell and buy ✅
+2. Division without division and mod Operation
+Maximum Subarray leetcode(Kadane's algorithm
+
+
+
+🌐 Graphs
+  Topological Sort
+⚙️ Java Core / OOP / Concurrency
+  Java Memory Model (Heap, Stack, GC)
+  Multithreading (synchronized, volatile, ExecutorService)
+  Abstract Class vs Interface
+  HashMap Internals (buckets, collisions)
+  ConcurrentHashMap vs HashMap
+  TreeMap vs LinkedHashMap
+
+
+
+Design Questions:
+---------------------------------
+  - Design a RESTful API for a healthcare application✅
+  - Explain how you would implement caching in a cloud application✅
+  - Design a URL Shortening service (like TinyURL)✅
+  - Design a live video streaming platform (e.g. Twitch): A common system-design question that tests content delivery at scale
+    machine-learning-made-simple.medium.com
+    . The answer should cover live ingestion (RTMP/HLS), transcoding to multiple bitrates, and a CDN for global distribution. It evaluates handling high data volume, low latency streaming, and fault tolerance (failover ingest servers, distributed edge caches)

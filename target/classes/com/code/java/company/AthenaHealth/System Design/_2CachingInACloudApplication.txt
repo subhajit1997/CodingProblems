@@ -1,0 +1,73 @@
+  - Explain how you would implement caching in a cloud application
+  - Design a Distributed Cache system: Examines scalability and fault-tolerance in caching. The candidate should discuss partitioning data across cache nodes, eviction policies (LRU/LFU), replication and consistency
+    . This question covers key architectural decisions in building a high-performance cache layer (network topology, cache hits/misses)
+
+HLD: Design a Distributed Cache System
+
+ What is a Distributed Cache System?
+        A distributed cache system stores frequently used data in memory (like Redis), but spread across multiple machines. This helps your app:
+
+        Respond faster (because it doesn’t go to the database every time)
+        Handle more users at once (because the load is shared)
+        Keep working even if one part of the cache goes down
+
+How It Works (Simple Explanation)
+        -   User makes a request to the app (e.g., fetch appointments).
+        -   The app first checks Redis cache:
+                If data is there → return it (very fast)
+                If not → get it from the database, store it in Redis, then return it
+        -   If data is updated, we clear or update the cache so the app doesn't show old data.
+
+1. Objective
+    Design a highly available, scalable, and fault-tolerant cache system that:
+
+            Handles high read/write throughput
+            Works across multiple application instances
+            Prevents single points of failure
+    
+2. Technology
+    Redis Cluster (preferred over standalone Redis)
+    Deployed via AWS ElastiCache Redis (or similar on GCP/Azure)
+    Client-side partitioning using a Redis client with cluster support
+
+3. High-Level Architecture
+
+
+                             +------------------------+
+                             |   Load Balancer/API GW |
+                             +------------------------+
+                                         |
+           +----------------------------------------------------+
+           |                    Application Layer               |
+           +----------------------------------------------------+
+                       |                           |
+                [App Instance A]            [App Instance B]
+                       |                           |
+           +---------------------+     +---------------------+
+           | Redis Client w/     |     | Redis Client w/     |
+           | Cluster Awareness   |     | Cluster Awareness   |
+           +---------------------+     +---------------------+
+                       |                           |
+               +----------------------+     +----------------------+
+               |   Redis Cluster      |     |    Redis Cluster     |
+               |  (3 Masters, 3 Replicas)   |  (Sharded + HA setup)|
+               +----------------------+     +----------------------+
+                            |                             
+                  +------------------------+                    
+                  |  Backend Database      |
+                  +------------------------+
+
+4. Key Components in Distributed Cache Design
+
+| Area                  | Design Approach                                                               |
+| --------------------- | ----------------------------------------------------------------------------- |
+| **Partitioning**      | Redis Cluster uses **hash slots (0–16383)** to distribute keys across shards  |
+| **Client Awareness**  | Redis client uses **MOVED/ASK** redirection to query the right shard          |
+| **Replication**       | Each master has **1 or more replicas** (read replicas + failover)             |
+| **High Availability** | Redis Sentinel / Cluster handles **automatic failover**                       |
+| **Scalability**       | Add new shards to cluster → rebalancing slots across nodes                    |
+| **Consistency**       | Tuned using **read-from-replica** (eventual consistency) or master-only reads |
+| **Eviction Policy**   | LRU/TTL based eviction at each node                                           |
+| **Fault Tolerance**   | Redis replication + application retries + fallbacks                           |
+
+

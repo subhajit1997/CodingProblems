@@ -1,0 +1,153 @@
+  
+  - Design a RESTful API for a healthcare application: Tests API design principles like resource modeling (patients, appointments, prescriptions), HTTP methods, statelessness and JSON payloads
+    . This evaluates understanding of REST conventions and good endpoint design in a healthcare domain.
+
+HLD:
+
+        ->  Identify Core Resources : 
+              - patient
+              - doctor
+              - appointment
+              - prescription 
+        ->  restful endpoints:
+              - GET /patients/{id}
+              - POST /patients
+              - PUT /patients/{id}
+              - DELETE /patients/{id}
+
+              -GET /patients/{id}/appointments
+              -POST /appointments
+              -PUT /appointments/{id}
+              -DELETE /appointments/{id}
+
+              -GET /appointments/{id}/prescription
+              -POST /prescriptions
+        
+        -> DATA modeling
+              patient
+
+              {
+                "id" :"343",
+                "name":"subhajit biswas",
+                "dob" : "1990-01-01",
+                "gender" : "M",
+                "conatct": {
+                  "phone": "1334",
+                  "email":"test@gmail.com"
+                }
+              }
+          -> Basic Design Constraints
+              -   Authentication : JWT/OAuth2 for secure API
+              -   Stateless : No session stored in servers
+              -   Pagination /patients?page=1&limit=10
+              -   Versioning : /api/v1/patients
+
+          -> Scalibility & performance
+            -   caching : Get endpoints with Redis
+            -   rate Limiting : To prevent abuse
+            -   database Design: Normalise patient and appointment date using foreign key
+            -   Async precess: Background jobs for email/sms
+
+LLD:
+
+Low-Level Design (LLD) for Patients and Appointments RESTful API
+// Tech stack: Java, Spring Boot, JPA (Hibernate), H2/PostgreSQL
+
+
+// ========== 1. Patient Entity ==========
+@Entity
+public class Patient{
+    @Id @GeneratedValue
+    private Long id;
+    private String name;
+    private String email;
+    private String phone;
+    private LocalDate dob;
+
+    //getters & setters
+}
+
+// ========== 2. Appointment Entity ==========
+@Entity
+public class Appointment {
+    @Id @GeneratedValue
+    private Long id;
+
+    @ManyToOne
+    private Patient patient;
+
+    private Long doctorId;
+    private LocalDateTime appointmentTime;
+    private String status; // BOOKED, CANCELLED
+    // Getters/Setters
+}
+
+// ========== 3. Repositories ==========
+@Repository
+public interface PatientRepository extends JpaRepository<Patient, Long> {}
+@Repository
+public interface AppointmentRepository extends JpaRepository<Appointment, Long> {
+    boolean existsByDoctorIdAndAppointmentTime(Long doctorId, LocalDateTime time);
+    List<Appointment> findByPatientId(Long patientId);
+}
+
+// ========== 4. DTOs ==========
+public class AppointmentRequest {
+    private Long patientId;
+    private Long doctorId;
+    private LocalDateTime appointmentTime;
+}
+
+public class AppointmentResponse {
+    private Long appointmentId;
+    private String status;
+    private String message;
+    // Constructors/Getters/Setters
+}
+// ========== 5. Service ==========
+@Service
+public class AppointmentService {
+    @Autowired
+    private AppointmentRepository appointmentRepo;
+    @Autowired
+    private PatientRepository patientRepo;
+
+    public AppointmentResponse bookAppointment(AppointmentRequest req) {
+        if (appointmentRepo.existsByDoctorIdAndAppointmentTime(req.getDoctorId(), req.getAppointmentTime())) {
+            return new AppointmentResponse(null, "FAILED", "Slot already booked");
+        }
+        Patient patient = patientRepo.findById(req.getPatientId()).orElseThrow();
+        Appointment appt = new Appointment();
+        appt.setPatient(patient);
+        appt.setDoctorId(req.getDoctorId());
+        appt.setAppointmentTime(req.getAppointmentTime());
+        appt.setStatus("BOOKED");
+        appt = appointmentRepo.save(appt);
+        return new AppointmentResponse(appt.getId(), appt.getStatus(), "Booked successfully");
+    }
+
+    public List<Appointment> getAppointmentsForPatient(Long patientId) {
+        return appointmentRepo.findByPatientId(patientId);
+    }
+}
+
+// ========== 6. Controller ==========
+@RestController
+@RequestMapping("/api")
+public class AppointmentController {
+    @Autowired
+    private AppointmentService appointmentService;
+
+    @PostMapping("/appointments")
+    public ResponseEntity<AppointmentResponse> book(@RequestBody AppointmentRequest request) {
+        AppointmentResponse res = appointmentService.bookAppointment(request);
+        return res.getStatus().equals("FAILED")
+            ? ResponseEntity.status(HttpStatus.CONFLICT).body(res)
+            : ResponseEntity.ok(res);
+    }
+
+    @GetMapping("/patients/{id}/appointments")
+    public List<Appointment> getAppointments(@PathVariable Long id) {
+        return appointmentService.getAppointmentsForPatient(id);
+    }
+}

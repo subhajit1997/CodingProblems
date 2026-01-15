@@ -29,7 +29,7 @@ public class _2SortColor0s1s2s {
         sortColorsBestApproach(val1);
         System.out.println(Arrays.toString(val1));
     }
-    //Brute Force
+    //Brute Force Time Complexity: O(N) + O(N)
     public static void sortColors(int[] nums) {
         int a=0,b=0;
         for (int num : nums) {

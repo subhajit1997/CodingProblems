@@ -1,0 +1,122 @@
+  - Design a URL Shortening service (like TinyURL): Tests distributed ID generation and scalability (tiny URLs must be unique and short). One must address data model (mapping short→long URLs), redirection, database sharding, and caching. The system should be highly available and low-latency
+    . (URL shortener design “covers the full design: requirements… system architecture, database schema, and strategies for scalability and fault tolerance”
+
+https://blog.algomaster.io/p/design-a-url-shortener
+
+
+
+🧠 Problem Statement
+    Design a service that:
+
+        -   Takes a long URL and returns a short URL (e.g., https://bit.ly/xyz123)
+        -   Redirects short URL requests to the original long URL
+
+🏗️ HLD (High-Level Design)
+
+    🎯 Functional Requirements
+        Shorten a long URL
+        Redirect a short URL to the original
+        Track basic analytics (clicks, etc.)
+    🚫 Non-Functional Requirements
+        High availability and scalability
+        Low latency
+        Avoid duplicate short URLs for the same input (optional)
+
+Basic Flow
+
+    Client → POST /shorten → [App] → DB → Return short URL
+    Client → GET /xyz123   → [App] → DB → Redirect to long URL
+
+Components
+
+| Component           | Role                                                |
+| ------------------- | --------------------------------------------------- |
+| **API Gateway**     | Routes API requests                                 |
+| **App Server**      | Hosts logic to encode/decode URLs                   |
+| **Database**        | Stores short code ↔ original URL mapping            |
+| **Cache (Redis)**   | Caches popular short URLs                           |
+| **ID Generator**    | Generates unique short codes (e.g., Base62 or hash) |
+| **Analytics Store** | (Optional) Logs each redirect for reporting         |
+
+
+Short Code Generation (Choose One)
+
+        Base62 encoding of DB ID (safe, unique, short)
+        Hash (e.g., MD5/SHA1) → trim to 6–8 chars
+        Random + collision check in DB
+
+
+
+LLD (Low-Level Design in Java – Simplified
+
+
+@Entity
+public class UrlMapping {
+    @Id @GeneratedValue
+    private Long id;
+
+    private String longUrl;
+    private String shortCode;
+    private LocalDateTime createdAt;
+    private LocalDateTime expiresAt;
+}
+
+
+@Repository
+public interface UrlMappingRepository extends JpaRepository<UrlMapping, Long> {
+    Optional<UrlMapping> findByShortCode(String shortCode);
+    Optional<UrlMapping> findByLongUrl(String longUrl);
+}
+
+@Service
+public class UrlShortenerService {
+    @Autowired private UrlMappingRepository repo;
+
+    private final String BASE_HOST = "http://short.ly/";
+
+    public String shortenUrl(String longUrl) {
+        // Optional: Check if already exists
+        return repo.findByLongUrl(longUrl)
+            .map(u -> BASE_HOST + u.getShortCode())
+            .orElseGet(() -> {
+                UrlMapping map = new UrlMapping();
+                map.setLongUrl(longUrl);
+                map.setShortCode(generateCode());
+                map.setCreatedAt(LocalDateTime.now());
+                map.setExpiresAt(LocalDateTime.now().plusMonths(6));
+                repo.save(map);
+                return BASE_HOST + map.getShortCode();
+            });
+    }
+
+    public String getOriginalUrl(String code) {
+        return repo.findByShortCode(code)
+            .filter(u -> u.getExpiresAt().isAfter(LocalDateTime.now()))
+            .map(UrlMapping::getLongUrl)
+            .orElseThrow(() -> new RuntimeException("Not found or expired"));
+    }
+
+    private String generateCode() {
+        // Example: random 6-char alphanumeric
+        return RandomStringUtils.randomAlphanumeric(6);
+    }
+}
+
+
+@RestController
+public class UrlController {
+    @Autowired private UrlShortenerService service;
+
+    @PostMapping("/shorten")
+    public String shorten(@RequestBody String longUrl) {
+        return service.shortenUrl(longUrl);
+    }
+
+    @GetMapping("/{code}")
+    public ResponseEntity<Void> redirect(@PathVariable String code) {
+        String longUrl = service.getOriginalUrl(code);
+        return ResponseEntity.status(HttpStatus.FOUND)
+                             .location(URI.create(longUrl))
+                             .build();
+    }
+}

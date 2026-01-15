@@ -1,0 +1,52 @@
+#########   Matrix  Contest4 ##########
+#######################################
+
+1) Arrays-Wave Print Row Wise :
+    Sample Input
+         11 12 13 14
+         21 22 23 24
+         31 32 33 34
+         41 42 43 44
+    Sample Output
+         11, 12, 13, 14, 24, 23, 22, 21, 31, 32, 33, 34, 44, 43, 42, 41, END
+
+ Ans) ->  Run column(j-th) row
+            ->left to right if i%2==0
+            ->right to left else condition
+
+2) Arrays-Spiral Print Anticlockwise:
+    Sample Input
+         11 12 13 14
+         21 22 23 24
+         31 32 33 34
+         41 42 43 44
+         
+    Sample Output
+        11, 21, 31, 41, 42, 43, 44, 34, 24, 14, 13, 12, 22, 32, 33, 23, END
+Ans)    -> take 4 variables, minRow,maxRow,minCol,maxCol
+        ->  take variables count=0 and total=size*size[0]
+        ->  while loop count<total 
+            ->  4 for-loops
+                     top -> bottom  minRow-maxRow   arr[r][minCol]  minCol++;
+                     left -> right  minCol-maxCol   arr[maxRow][c]  maxRow--;
+                     bottom -> top  maxRow-minRow   arr[r][maxCol]  maxCol--;
+                     right -> left  maxCol-minCol   arr[minRow][c]  minRow++;
+            
+3) Arrays-Wave print Column Wise
+    Input :
+         11 12 13 14
+         21 22 23 24
+         31 32 33 34
+         41 42 43 44
+    Sample Output: 11, 21, 31, 41, 42, 32, 22, 12, 13, 23, 33, 43, 44, 34, 24,14, END
+Ans)    first loop for column , 
+        check if c%2==0 then loop row 0-n 
+        else loop n-0
+        print : arr[r][c]
+
+4)Matrix Search: Find if element x is present in the matrix or not
+Ans) run two for loops, if matrix[i][j] ==target return 1 else if matrix[i][j]>target break,
+        finally return 0 if not found
+
+5)Arrays-Spiral Print Clockwise
+Ans) 

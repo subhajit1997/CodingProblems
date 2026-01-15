@@ -17,6 +17,5 @@ public class _1LargestElementInArray {
             }
         }
         return max;
-
     }
 }

@@ -1,0 +1,27 @@
+Interview1:
+----------------
+
+DSA:
+- Find longest subarray with increasing order in a array 
+
+SQL:
+- Find all the students from studenttable that have the total highest marks across multiple subjects there can be multiple students with highest score
+| Student ID | Student Name | Subject     | Mark |
+|------------|--------------|-------------|------|
+| 1          | John Smith   | Mathematics | 90   |
+| 2          | Emily Johnson| English     | 85   |
+| 1          | John Smith   | English     | 80   |
+| 3          | Michael Lee  | Science     | 92   |
+| 4          | Sarah Brown  | History     | 78   |
+| 5          | David Chen   | Geography   | 88   |
+
+
+Questions:
+- Difference between solr & opensearch
+- Difference between solr & postgrace
+- In AWS why use s3 , limit of file size we can have in s3, storage limit
+- Difference between ec2 and lambda
+- How lambda is used from step function
+- In we create a new spring boot application how will we start and configure
+- If there is a memory leak how do we identify and debug and fix in prod application
+- if there is a bug how do we go from fixing to deployment

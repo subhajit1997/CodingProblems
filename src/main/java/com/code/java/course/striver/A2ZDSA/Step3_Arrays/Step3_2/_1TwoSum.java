@@ -34,7 +34,7 @@ public class _1TwoSum {
         }
         return val;
     }
-    //O(N) Hash Map
+    //O(N) Best is Hash Map
     public static int[] twoSumHashMap(int[] nums, int target) {
         int[] val = new int[2];
         val[0]=val[1]=-1;
@@ -52,7 +52,7 @@ public class _1TwoSum {
         return val;
     }
 
-    //Best approach using two pointer
+    // using two pointer 
     public int[] twoSumOptimised(int[] nums, int target) {
         int length = nums.length;
         int start = 0, end = length - 1;

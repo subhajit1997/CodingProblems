@@ -1,0 +1,61 @@
+package com.code.java.course.striver.A2ZDSA.Step3_Arrays.Step3_2;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * learn:
+ * practice:https://leetcode.com/problems/majority-element/description/
+ */
+public class _3MajorityElement {
+    public static void main(String[] args) {
+        System.out.println(majorityElement(new int[]{2,2,1,1,1,2,2}));
+        System.out.println(majorityElementOptimised(new int[]{2,2,1,1,1,2,2}));
+
+    }
+    //sing hashmap
+    // O(n*log(n)) - as insertion in hashmap takes log(n)
+    public  static int majorityElement(int[] nums) {
+        int n = nums.length;
+        HashMap<Integer,Integer> mpp = new HashMap<>();
+        for(int num:nums){
+            int value = mpp.getOrDefault(num, 0);
+            mpp.put(num,value+1);
+
+        }
+        for(Map.Entry<Integer,Integer> e : mpp.entrySet()){
+            if(e.getValue()>n/2){
+                return e.getKey();
+            }
+        }
+        return -1;
+    }
+
+    //Optimal approach
+//Moore’s Voting Algorithm
+// O(n)
+    public static int majorityElementOptimised(int[] nums) {
+        int n = nums.length;
+        int count  =0,element=0;
+        for(int i=0;i<n;i++){
+            if(count ==0){
+                count=1;
+                element = nums[i];
+            }else if(element == nums[i])
+                count ++;
+            else
+                count --;
+        }
+
+        int c1 =0;
+        for(int i=0;i<n;i++){
+            if(nums[i]==element)
+                c1++;
+        }
+        if(c1>(n/2))
+            return element;
+        return -1;
+    }
+
+    
+}
